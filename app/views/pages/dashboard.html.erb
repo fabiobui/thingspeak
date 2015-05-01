@@ -1,0 +1,263 @@
+<%= javascript_include_tag 'application' %>
+      <script type="text/javascript">
+
+        // user's timezone offset
+        var myOffset = new Date().getTimezoneOffset();
+
+        // converts date format from JSON
+        function getChartDate(d) {
+          // get the data using javascript's date object (year, month, day, hour, minute, second)
+          // months in javascript start at 0, so remember to subtract 1 when specifying the month
+          // offset in minutes is converted to milliseconds and subtracted so that chart's x-axis is correct
+          return Date.UTC(d.substring(0,4), d.substring(5,7)-1, d.substring(8,10), d.substring(11,13), d.substring(14,16), d.substring(17,19)) - (myOffset * 60000);
+        }
+
+        $(document).on('page:load ready', function() {
+          // get the data with a webservice call
+          $.getJSON('<%= "#{@domain}channels/1/field/1.json?callback=?&offset=0#{@qs}" %>', function(data) {
+              console.log(data);
+          });
+
+              var lux_out = parseInt(90);
+              $('#lux_out').empty();
+              $('#lux_out').append(lux_out); 
+        });
+       </script>
+
+
+<div class="row">
+  <div class="col-xs-12 col-sm-6">
+    <h4 class='breadcrumb'><%= t(:dashboard) %></h4>
+    <div class="col-pad">
+    <!-- /.panel-external info -->     
+      <div class="panel panel-default">
+        <div class="panel-heading">
+            <i class="fa fa-external-link fa-fw"></i> External info
+        </div>
+        <div class="panel-body">
+                  <div class="panel panel-info">
+                  <div class="panel-heading">
+                      <i class="fa fa-adjust"></i> Light
+                  </div>
+                  <div class="panel-body">
+                     <div class="row"> 
+                         <div class="col-lg-4 col-md-6">
+                             <div class="panel panel-primary">
+                                 <div class="panel-heading text-center">
+                                     <div class="huge">22</div>
+                                     <div>Min</div>
+                                 </div>
+                             </div>
+                         </div>
+                         <div class="col-lg-4 col-md-6">
+                             <div class="panel panel-green">
+                                 <div class="panel-heading text-center">
+                                     <div class="huge" id="lux_out">&nbsp;</div>
+                                     <div>Actual</div>
+                                 </div>
+                             </div>
+                         </div>
+                         <div class="col-lg-4 col-md-6">
+                             <div class="panel panel-red">
+                                 <div class="panel-heading text-center">
+                                     <div class="huge">95</div>
+                                     <div>Max</div>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>   
+                  </div>
+                 </div>
+        </div>
+        <div class="panel-body">
+                  <div class="panel panel-info">
+                  <div class="panel-heading">
+                      <i class="fa fa-tint"></i> Humidity
+                  </div>
+                  <div class="panel-body">
+                     <div class="row"> 
+                         <div class="col-lg-4 col-md-6">
+                             <div class="panel panel-primary">
+                                 <div class="panel-heading text-center">
+                                     <div><span class="huge">30</span>%</div>
+                                     <div>Min</div>
+                                 </div>
+                             </div>
+                         </div>
+                         <div class="col-lg-4 col-md-6">
+                             <div class="panel panel-green">
+                                 <div class="panel-heading text-center">
+                                     <div><span class="huge" id="hum_out">&nbsp;</span>%</div>
+                                     <div>Actual</div>
+                                 </div>
+                             </div>
+                         </div>
+                         <div class="col-lg-4 col-md-6">
+                             <div class="panel panel-red">
+                                 <div class="panel-heading text-center">
+                                    <div><span class="huge">90</span>%</div>
+                                     <div>Max</div>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>   
+                  </div>
+                 </div>
+        </div>
+                 <div class="panel-body">
+                  <div class="panel panel-info">
+                  <div class="panel-heading">
+                      <i class="fa fa-ellipsis-v"></i> Temperature
+                  </div>
+                  <div class="panel-body">
+                     <div class="row"> 
+                         <div class="col-lg-4 col-md-6">
+                             <div class="panel panel-primary">
+                                 <div class="panel-heading text-center">
+                                     <div class="huge">18°</div>
+                                     <div>Min</div>
+                                 </div>
+                             </div>
+                         </div>
+                         <div class="col-lg-4 col-md-6">
+                             <div class="panel panel-green">
+                                 <div class="panel-heading text-center">
+                                     <div class="huge" id="temp_out">&nbsp;</div>
+                                     <div>Actual</div>
+                                 </div>
+                             </div>
+                         </div>
+                         <div class="col-lg-4 col-md-6">
+                             <div class="panel panel-red">
+                                 <div class="panel-heading text-center">
+                                     <div class="huge">22°</div>
+                                     <div>Max</div>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>   
+                 </div>
+                 </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+              <div class="panel-heading">
+                  <i class="fa fa-home fa-fw"></i> Internal info
+              </div>
+              <div class="panel-body">
+                  <div class="panel panel-info">
+                  <div class="panel-heading">
+                      <i class="fa fa-adjust"></i> Light
+                  </div>
+                  <div class="panel-body">
+                     <div class="row"> 
+                         <div class="col-lg-4 col-md-6">
+                             <div class="panel panel-primary">
+                                 <div class="panel-heading text-center">
+                                     <div class="huge">2</div>
+                                     <div>Min</div>
+                                 </div>
+                             </div>
+                         </div>
+                         <div class="col-lg-4 col-md-6">
+                             <div class="panel panel-green">
+                                 <div class="panel-heading text-center">
+                                     <div class="huge" id="lux_in">&nbsp;</div>
+                                     <div>Actual</div>
+                                 </div>
+                             </div>
+                         </div>
+                         <div class="col-lg-4 col-md-6">
+                             <div class="panel panel-red">
+                                 <div class="panel-heading text-center">
+                                     <div class="huge">90</div>
+                                     <div>Max</div>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>   
+                 </div>
+                 </div>              
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                      <i class="fa fa-ellipsis-v"></i> Temperature
+                  </div>
+                  <div class="panel-body">
+                     <div class="row"> 
+                         <div class="col-lg-4 col-md-6">
+                             <div class="panel panel-primary">
+                                 <div class="panel-heading text-center">
+                                     <div class="huge">18°</div>
+                                     <div>Min</div>
+                                 </div>
+                             </div>
+                         </div>
+                         <div class="col-lg-4 col-md-6">
+                             <div class="panel panel-green">
+                                 <div class="panel-heading text-center">
+                                     <div class="huge" id="temp_in">&nbsp;</div>
+                                     <div>Actual</div>
+                                 </div>
+                             </div>
+                         </div>
+                         <div class="col-lg-4 col-md-6">
+                             <div class="panel panel-red">
+                                 <div class="panel-heading text-center">
+                                     <div class="huge">22°</div>
+                                     <div>Max</div>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>   
+                 </div>
+                </div>
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                      <i class="fa fa-cloud"></i> Pressure
+                  </div>
+                  <div class="panel-body">
+                     <div class="row"> 
+                         <div class="col-lg-4 col-md-6">
+                             <div class="panel panel-primary">
+                                 <div class="panel-heading text-center">
+                                     <div class="huge">900</div>
+                                     <div>Min</div>
+                                 </div>
+                             </div>
+                         </div>
+                         <div class="col-lg-4 col-md-6">
+                             <div class="panel panel-green">
+                                 <div class="panel-heading text-center">
+                                     <div class="huge" id="mbar_in">&nbsp;</div>
+                                     <div>Actual</div>
+                                 </div>
+                             </div>
+                         </div>
+                         <div class="col-lg-4 col-md-6">
+                             <div class="panel panel-red">
+                                 <div class="panel-heading text-center">
+                                     <div class="huge">1020</div>
+                                     <div>Max</div>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>   
+                 </div>
+                </div>
+      </div>
+      </div>                        
+    </div>
+  </div>
+
+  <div id="sidebar" class="col-xs-12 col-sm-6">
+    <h4 class="breadcrumb"><%= t(:help) %></h4>
+
+    <div class="col-pad">
+      <%= t(:help_plugins) %>
+      <ul>
+        <li><a href="http://community.thingspeak.com/tutorials/google/display-a-google-gauge-visualization-using-thingspeak-plugins/" target="_blank">Google Gauge Tutorial</a></li>
+      </ul>
+    </div>
+  </div>
+
+</div>

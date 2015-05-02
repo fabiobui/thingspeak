@@ -14,13 +14,14 @@
 
         $(document).on('page:load ready', function() {
           // get the data with a webservice call
-          $.getJSON('<%= "#{@domain}channels/1/field/1.json?callback=?&offset=0#{@qs}" %>', function(data) {
+          $.getJSON('<%= "#{@domain}channels/1/feed/last.json?callback=?&offset=0#{@qs}" %>', function(data) {
               console.log(data);
-          });
-
-              var lux_out = parseInt(90);
+              var lux_out = parseInt(data.field2);
               $('#lux_out').empty();
               $('#lux_out').append(lux_out); 
+          });
+
+
         });
        </script>
 

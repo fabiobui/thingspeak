@@ -1500,3 +1500,854 @@
 [05/04/15 13:43:25 +0000 core (10768)] ERROR : Invalid license key, please contact support@newrelic.com
 [05/04/15 13:43:25 +0000 core (10768)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
 [05/04/15 13:44:13 +0000 core (10768)] INFO : Starting Agent shutdown
+[05/04/15 16:58:42 +0200 mcb-fabio.local (738)] INFO : Starting the New Relic agent in "production" environment.
+[05/04/15 16:58:42 +0200 mcb-fabio.local (738)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/04/15 16:58:42 +0200 mcb-fabio.local (738)] WARN : No configuration file found. Working directory = /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak
+[05/04/15 16:58:42 +0200 mcb-fabio.local (738)] WARN : Looked in these locations (based on defaults): /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/.newrelic/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/newrelic.yml
+[05/04/15 16:58:42 +0200 mcb-fabio.local (738)] INFO : Environment: production
+[05/04/15 16:58:42 +0200 mcb-fabio.local (738)] INFO : Dispatcher: mongrel
+[05/04/15 16:58:42 +0200 mcb-fabio.local (738)] INFO : Application: production
+[05/04/15 16:58:42 +0200 mcb-fabio.local (738)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'.
+[05/04/15 16:58:42 +0200 mcb-fabio.local (738)] INFO : Installing ActiveRecord 4 instrumentation
+[05/04/15 16:58:42 +0200 mcb-fabio.local (738)] INFO : Installing Dalli Memcache instrumentation
+[05/04/15 16:58:42 +0200 mcb-fabio.local (738)] INFO : Installing Net instrumentation
+[05/04/15 16:58:42 +0200 mcb-fabio.local (738)] INFO : Installing deferred Rack instrumentation
+[05/04/15 16:58:42 +0200 mcb-fabio.local (738)] INFO : Installing Rack::Builder middleware instrumentation
+[05/04/15 16:58:42 +0200 mcb-fabio.local (738)] INFO : Installing Rails 3+ middleware instrumentation
+[05/04/15 16:58:42 +0200 mcb-fabio.local (738)] INFO : Installing Resque instrumentation
+[05/04/15 16:58:42 +0200 mcb-fabio.local (738)] INFO : Installing Rails 4 Controller instrumentation
+[05/04/15 16:58:42 +0200 mcb-fabio.local (738)] INFO : Installing Rails 4 view instrumentation
+[05/04/15 16:58:42 +0200 mcb-fabio.local (738)] INFO : Installing Rails 4 Error instrumentation
+[05/04/15 16:58:42 +0200 mcb-fabio.local (738)] INFO : Finished instrumentation
+[05/04/15 16:58:43 +0200 mcb-fabio.local (738)] INFO : Doing deferred dependency-detection before Rack startup
+[05/04/15 16:58:49 +0200 mcb-fabio.local (738)] ERROR : Invalid license key, please contact support@newrelic.com
+[05/04/15 16:58:49 +0200 mcb-fabio.local (738)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[05/04/15 17:04:56 +0200 mcb-fabio.local (738)] INFO : Starting Agent shutdown
+[05/04/15 17:05:03 +0200 mcb-fabio.local (838)] INFO : Starting the New Relic agent in "production" environment.
+[05/04/15 17:05:03 +0200 mcb-fabio.local (838)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/04/15 17:05:03 +0200 mcb-fabio.local (838)] WARN : No configuration file found. Working directory = /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak
+[05/04/15 17:05:03 +0200 mcb-fabio.local (838)] WARN : Looked in these locations (based on defaults): /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/.newrelic/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/newrelic.yml
+[05/04/15 17:05:04 +0200 mcb-fabio.local (838)] INFO : Environment: production
+[05/04/15 17:05:04 +0200 mcb-fabio.local (838)] INFO : Dispatcher: mongrel
+[05/04/15 17:05:04 +0200 mcb-fabio.local (838)] INFO : Application: production
+[05/04/15 17:05:04 +0200 mcb-fabio.local (838)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'.
+[05/04/15 17:05:04 +0200 mcb-fabio.local (838)] INFO : Installing ActiveRecord 4 instrumentation
+[05/04/15 17:05:04 +0200 mcb-fabio.local (838)] INFO : Installing Dalli Memcache instrumentation
+[05/04/15 17:05:04 +0200 mcb-fabio.local (838)] INFO : Installing Net instrumentation
+[05/04/15 17:05:04 +0200 mcb-fabio.local (838)] INFO : Installing deferred Rack instrumentation
+[05/04/15 17:05:04 +0200 mcb-fabio.local (838)] INFO : Installing Rack::Builder middleware instrumentation
+[05/04/15 17:05:04 +0200 mcb-fabio.local (838)] INFO : Installing Rails 3+ middleware instrumentation
+[05/04/15 17:05:04 +0200 mcb-fabio.local (838)] INFO : Installing Resque instrumentation
+[05/04/15 17:05:04 +0200 mcb-fabio.local (838)] INFO : Installing Rails 4 Controller instrumentation
+[05/04/15 17:05:04 +0200 mcb-fabio.local (838)] INFO : Installing Rails 4 view instrumentation
+[05/04/15 17:05:04 +0200 mcb-fabio.local (838)] INFO : Installing Rails 4 Error instrumentation
+[05/04/15 17:05:04 +0200 mcb-fabio.local (838)] INFO : Finished instrumentation
+[05/04/15 17:05:05 +0200 mcb-fabio.local (838)] INFO : Doing deferred dependency-detection before Rack startup
+[05/04/15 17:05:11 +0200 mcb-fabio.local (838)] ERROR : Invalid license key, please contact support@newrelic.com
+[05/04/15 17:05:11 +0200 mcb-fabio.local (838)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[05/04/15 17:08:37 +0200 mcb-fabio.local (838)] INFO : Starting Agent shutdown
+[05/04/15 17:08:44 +0200 mcb-fabio.local (896)] INFO : Starting the New Relic agent in "production" environment.
+[05/04/15 17:08:44 +0200 mcb-fabio.local (896)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/04/15 17:08:44 +0200 mcb-fabio.local (896)] WARN : No configuration file found. Working directory = /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak
+[05/04/15 17:08:44 +0200 mcb-fabio.local (896)] WARN : Looked in these locations (based on defaults): /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/.newrelic/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/newrelic.yml
+[05/04/15 17:08:44 +0200 mcb-fabio.local (896)] INFO : Environment: production
+[05/04/15 17:08:44 +0200 mcb-fabio.local (896)] INFO : Dispatcher: mongrel
+[05/04/15 17:08:44 +0200 mcb-fabio.local (896)] INFO : Application: production
+[05/04/15 17:08:44 +0200 mcb-fabio.local (896)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'.
+[05/04/15 17:08:44 +0200 mcb-fabio.local (896)] INFO : Installing ActiveRecord 4 instrumentation
+[05/04/15 17:08:44 +0200 mcb-fabio.local (896)] INFO : Installing Dalli Memcache instrumentation
+[05/04/15 17:08:44 +0200 mcb-fabio.local (896)] INFO : Installing Net instrumentation
+[05/04/15 17:08:44 +0200 mcb-fabio.local (896)] INFO : Installing deferred Rack instrumentation
+[05/04/15 17:08:44 +0200 mcb-fabio.local (896)] INFO : Installing Rack::Builder middleware instrumentation
+[05/04/15 17:08:44 +0200 mcb-fabio.local (896)] INFO : Installing Rails 3+ middleware instrumentation
+[05/04/15 17:08:44 +0200 mcb-fabio.local (896)] INFO : Installing Resque instrumentation
+[05/04/15 17:08:44 +0200 mcb-fabio.local (896)] INFO : Installing Rails 4 Controller instrumentation
+[05/04/15 17:08:44 +0200 mcb-fabio.local (896)] INFO : Installing Rails 4 view instrumentation
+[05/04/15 17:08:44 +0200 mcb-fabio.local (896)] INFO : Installing Rails 4 Error instrumentation
+[05/04/15 17:08:44 +0200 mcb-fabio.local (896)] INFO : Finished instrumentation
+[05/04/15 17:08:45 +0200 mcb-fabio.local (896)] INFO : Doing deferred dependency-detection before Rack startup
+[05/04/15 17:08:52 +0200 mcb-fabio.local (896)] ERROR : Invalid license key, please contact support@newrelic.com
+[05/04/15 17:08:52 +0200 mcb-fabio.local (896)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[05/04/15 17:09:39 +0200 mcb-fabio.local (896)] INFO : Starting Agent shutdown
+[05/04/15 17:09:45 +0200 mcb-fabio.local (917)] INFO : Starting the New Relic agent in "production" environment.
+[05/04/15 17:09:45 +0200 mcb-fabio.local (917)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/04/15 17:09:45 +0200 mcb-fabio.local (917)] WARN : No configuration file found. Working directory = /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak
+[05/04/15 17:09:45 +0200 mcb-fabio.local (917)] WARN : Looked in these locations (based on defaults): /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/.newrelic/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/newrelic.yml
+[05/04/15 17:09:45 +0200 mcb-fabio.local (917)] INFO : Environment: production
+[05/04/15 17:09:45 +0200 mcb-fabio.local (917)] INFO : Dispatcher: mongrel
+[05/04/15 17:09:45 +0200 mcb-fabio.local (917)] INFO : Application: production
+[05/04/15 17:09:45 +0200 mcb-fabio.local (917)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'.
+[05/04/15 17:09:45 +0200 mcb-fabio.local (917)] INFO : Installing ActiveRecord 4 instrumentation
+[05/04/15 17:09:45 +0200 mcb-fabio.local (917)] INFO : Installing Dalli Memcache instrumentation
+[05/04/15 17:09:45 +0200 mcb-fabio.local (917)] INFO : Installing Net instrumentation
+[05/04/15 17:09:45 +0200 mcb-fabio.local (917)] INFO : Installing deferred Rack instrumentation
+[05/04/15 17:09:45 +0200 mcb-fabio.local (917)] INFO : Installing Rack::Builder middleware instrumentation
+[05/04/15 17:09:45 +0200 mcb-fabio.local (917)] INFO : Installing Rails 3+ middleware instrumentation
+[05/04/15 17:09:45 +0200 mcb-fabio.local (917)] INFO : Installing Resque instrumentation
+[05/04/15 17:09:45 +0200 mcb-fabio.local (917)] INFO : Installing Rails 4 Controller instrumentation
+[05/04/15 17:09:45 +0200 mcb-fabio.local (917)] INFO : Installing Rails 4 view instrumentation
+[05/04/15 17:09:45 +0200 mcb-fabio.local (917)] INFO : Installing Rails 4 Error instrumentation
+[05/04/15 17:09:45 +0200 mcb-fabio.local (917)] INFO : Finished instrumentation
+[05/04/15 17:09:46 +0200 mcb-fabio.local (917)] INFO : Doing deferred dependency-detection before Rack startup
+[05/04/15 17:09:53 +0200 mcb-fabio.local (917)] ERROR : Invalid license key, please contact support@newrelic.com
+[05/04/15 17:09:53 +0200 mcb-fabio.local (917)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[05/04/15 17:11:14 +0200 mcb-fabio.local (917)] INFO : Starting Agent shutdown
+[05/04/15 17:11:20 +0200 mcb-fabio.local (950)] INFO : Starting the New Relic agent in "production" environment.
+[05/04/15 17:11:20 +0200 mcb-fabio.local (950)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/04/15 17:11:20 +0200 mcb-fabio.local (950)] WARN : No configuration file found. Working directory = /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak
+[05/04/15 17:11:20 +0200 mcb-fabio.local (950)] WARN : Looked in these locations (based on defaults): /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/.newrelic/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/newrelic.yml
+[05/04/15 17:11:20 +0200 mcb-fabio.local (950)] INFO : Environment: production
+[05/04/15 17:11:20 +0200 mcb-fabio.local (950)] INFO : Dispatcher: mongrel
+[05/04/15 17:11:20 +0200 mcb-fabio.local (950)] INFO : Application: production
+[05/04/15 17:11:20 +0200 mcb-fabio.local (950)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'.
+[05/04/15 17:11:20 +0200 mcb-fabio.local (950)] INFO : Installing ActiveRecord 4 instrumentation
+[05/04/15 17:11:20 +0200 mcb-fabio.local (950)] INFO : Installing Dalli Memcache instrumentation
+[05/04/15 17:11:20 +0200 mcb-fabio.local (950)] INFO : Installing Net instrumentation
+[05/04/15 17:11:20 +0200 mcb-fabio.local (950)] INFO : Installing deferred Rack instrumentation
+[05/04/15 17:11:20 +0200 mcb-fabio.local (950)] INFO : Installing Rack::Builder middleware instrumentation
+[05/04/15 17:11:20 +0200 mcb-fabio.local (950)] INFO : Installing Rails 3+ middleware instrumentation
+[05/04/15 17:11:20 +0200 mcb-fabio.local (950)] INFO : Installing Resque instrumentation
+[05/04/15 17:11:20 +0200 mcb-fabio.local (950)] INFO : Installing Rails 4 Controller instrumentation
+[05/04/15 17:11:20 +0200 mcb-fabio.local (950)] INFO : Installing Rails 4 view instrumentation
+[05/04/15 17:11:20 +0200 mcb-fabio.local (950)] INFO : Installing Rails 4 Error instrumentation
+[05/04/15 17:11:20 +0200 mcb-fabio.local (950)] INFO : Finished instrumentation
+[05/04/15 17:11:21 +0200 mcb-fabio.local (950)] INFO : Doing deferred dependency-detection before Rack startup
+[05/04/15 17:11:35 +0200 mcb-fabio.local (950)] ERROR : Invalid license key, please contact support@newrelic.com
+[05/04/15 17:11:35 +0200 mcb-fabio.local (950)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[05/04/15 17:14:50 +0200 mcb-fabio.local (950)] INFO : Starting Agent shutdown
+[05/04/15 17:15:34 +0200 mcb-fabio.local (1019)] INFO : Starting the New Relic agent in "production" environment.
+[05/04/15 17:15:34 +0200 mcb-fabio.local (1019)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/04/15 17:15:34 +0200 mcb-fabio.local (1019)] WARN : No configuration file found. Working directory = /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak
+[05/04/15 17:15:34 +0200 mcb-fabio.local (1019)] WARN : Looked in these locations (based on defaults): /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/.newrelic/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/newrelic.yml
+[05/04/15 17:15:34 +0200 mcb-fabio.local (1019)] INFO : Environment: production
+[05/04/15 17:15:34 +0200 mcb-fabio.local (1019)] INFO : Dispatcher: mongrel
+[05/04/15 17:15:34 +0200 mcb-fabio.local (1019)] INFO : Application: production
+[05/04/15 17:15:34 +0200 mcb-fabio.local (1019)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'.
+[05/04/15 17:15:34 +0200 mcb-fabio.local (1019)] INFO : Installing ActiveRecord 4 instrumentation
+[05/04/15 17:15:34 +0200 mcb-fabio.local (1019)] INFO : Installing Dalli Memcache instrumentation
+[05/04/15 17:15:34 +0200 mcb-fabio.local (1019)] INFO : Installing Net instrumentation
+[05/04/15 17:15:34 +0200 mcb-fabio.local (1019)] INFO : Installing deferred Rack instrumentation
+[05/04/15 17:15:34 +0200 mcb-fabio.local (1019)] INFO : Installing Rack::Builder middleware instrumentation
+[05/04/15 17:15:34 +0200 mcb-fabio.local (1019)] INFO : Installing Rails 3+ middleware instrumentation
+[05/04/15 17:15:34 +0200 mcb-fabio.local (1019)] INFO : Installing Resque instrumentation
+[05/04/15 17:15:34 +0200 mcb-fabio.local (1019)] INFO : Installing Rails 4 Controller instrumentation
+[05/04/15 17:15:34 +0200 mcb-fabio.local (1019)] INFO : Installing Rails 4 view instrumentation
+[05/04/15 17:15:34 +0200 mcb-fabio.local (1019)] INFO : Installing Rails 4 Error instrumentation
+[05/04/15 17:15:34 +0200 mcb-fabio.local (1019)] INFO : Finished instrumentation
+[05/04/15 17:15:35 +0200 mcb-fabio.local (1019)] INFO : Doing deferred dependency-detection before Rack startup
+[05/04/15 17:15:47 +0200 mcb-fabio.local (1019)] ERROR : Invalid license key, please contact support@newrelic.com
+[05/04/15 17:15:47 +0200 mcb-fabio.local (1019)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[05/04/15 17:20:18 +0200 mcb-fabio.local (1019)] INFO : Starting Agent shutdown
+[05/04/15 17:21:11 +0200 mcb-fabio.local (1106)] INFO : Starting the New Relic agent in "production" environment.
+[05/04/15 17:21:11 +0200 mcb-fabio.local (1106)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/04/15 17:21:11 +0200 mcb-fabio.local (1106)] WARN : No configuration file found. Working directory = /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak
+[05/04/15 17:21:11 +0200 mcb-fabio.local (1106)] WARN : Looked in these locations (based on defaults): /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/.newrelic/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/newrelic.yml
+[05/04/15 17:21:11 +0200 mcb-fabio.local (1106)] INFO : Environment: production
+[05/04/15 17:21:11 +0200 mcb-fabio.local (1106)] INFO : Dispatcher: mongrel
+[05/04/15 17:21:11 +0200 mcb-fabio.local (1106)] INFO : Application: production
+[05/04/15 17:21:11 +0200 mcb-fabio.local (1106)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'.
+[05/04/15 17:21:11 +0200 mcb-fabio.local (1106)] INFO : Installing ActiveRecord 4 instrumentation
+[05/04/15 17:21:11 +0200 mcb-fabio.local (1106)] INFO : Installing Dalli Memcache instrumentation
+[05/04/15 17:21:11 +0200 mcb-fabio.local (1106)] INFO : Installing Net instrumentation
+[05/04/15 17:21:11 +0200 mcb-fabio.local (1106)] INFO : Installing deferred Rack instrumentation
+[05/04/15 17:21:11 +0200 mcb-fabio.local (1106)] INFO : Installing Rack::Builder middleware instrumentation
+[05/04/15 17:21:11 +0200 mcb-fabio.local (1106)] INFO : Installing Rails 3+ middleware instrumentation
+[05/04/15 17:21:11 +0200 mcb-fabio.local (1106)] INFO : Installing Resque instrumentation
+[05/04/15 17:21:11 +0200 mcb-fabio.local (1106)] INFO : Installing Rails 4 Controller instrumentation
+[05/04/15 17:21:11 +0200 mcb-fabio.local (1106)] INFO : Installing Rails 4 view instrumentation
+[05/04/15 17:21:11 +0200 mcb-fabio.local (1106)] INFO : Installing Rails 4 Error instrumentation
+[05/04/15 17:21:11 +0200 mcb-fabio.local (1106)] INFO : Finished instrumentation
+[05/04/15 17:21:12 +0200 mcb-fabio.local (1106)] INFO : Doing deferred dependency-detection before Rack startup
+[05/04/15 17:21:31 +0200 mcb-fabio.local (1106)] ERROR : Invalid license key, please contact support@newrelic.com
+[05/04/15 17:21:31 +0200 mcb-fabio.local (1106)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[05/04/15 17:22:42 +0200 mcb-fabio.local (1106)] INFO : Starting Agent shutdown
+[05/04/15 17:23:31 +0200 mcb-fabio.local (1144)] INFO : Starting the New Relic agent in "production" environment.
+[05/04/15 17:23:31 +0200 mcb-fabio.local (1144)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/04/15 17:23:31 +0200 mcb-fabio.local (1144)] WARN : No configuration file found. Working directory = /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak
+[05/04/15 17:23:31 +0200 mcb-fabio.local (1144)] WARN : Looked in these locations (based on defaults): /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/.newrelic/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/newrelic.yml
+[05/04/15 17:23:31 +0200 mcb-fabio.local (1144)] INFO : Environment: production
+[05/04/15 17:23:31 +0200 mcb-fabio.local (1144)] INFO : Dispatcher: mongrel
+[05/04/15 17:23:31 +0200 mcb-fabio.local (1144)] INFO : Application: production
+[05/04/15 17:23:31 +0200 mcb-fabio.local (1144)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'.
+[05/04/15 17:23:31 +0200 mcb-fabio.local (1144)] INFO : Installing ActiveRecord 4 instrumentation
+[05/04/15 17:23:31 +0200 mcb-fabio.local (1144)] INFO : Installing Dalli Memcache instrumentation
+[05/04/15 17:23:31 +0200 mcb-fabio.local (1144)] INFO : Installing Net instrumentation
+[05/04/15 17:23:31 +0200 mcb-fabio.local (1144)] INFO : Installing deferred Rack instrumentation
+[05/04/15 17:23:31 +0200 mcb-fabio.local (1144)] INFO : Installing Rack::Builder middleware instrumentation
+[05/04/15 17:23:31 +0200 mcb-fabio.local (1144)] INFO : Installing Rails 3+ middleware instrumentation
+[05/04/15 17:23:31 +0200 mcb-fabio.local (1144)] INFO : Installing Resque instrumentation
+[05/04/15 17:23:31 +0200 mcb-fabio.local (1144)] INFO : Installing Rails 4 Controller instrumentation
+[05/04/15 17:23:31 +0200 mcb-fabio.local (1144)] INFO : Installing Rails 4 view instrumentation
+[05/04/15 17:23:31 +0200 mcb-fabio.local (1144)] INFO : Installing Rails 4 Error instrumentation
+[05/04/15 17:23:31 +0200 mcb-fabio.local (1144)] INFO : Finished instrumentation
+[05/04/15 17:23:32 +0200 mcb-fabio.local (1144)] INFO : Doing deferred dependency-detection before Rack startup
+[05/04/15 17:23:40 +0200 mcb-fabio.local (1144)] ERROR : Invalid license key, please contact support@newrelic.com
+[05/04/15 17:23:40 +0200 mcb-fabio.local (1144)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[05/04/15 17:26:06 +0200 mcb-fabio.local (1144)] INFO : Starting Agent shutdown
+[05/04/15 17:26:12 +0200 mcb-fabio.local (1197)] INFO : Starting the New Relic agent in "production" environment.
+[05/04/15 17:26:12 +0200 mcb-fabio.local (1197)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/04/15 17:26:12 +0200 mcb-fabio.local (1197)] WARN : No configuration file found. Working directory = /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak
+[05/04/15 17:26:12 +0200 mcb-fabio.local (1197)] WARN : Looked in these locations (based on defaults): /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/.newrelic/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/newrelic.yml
+[05/04/15 17:26:12 +0200 mcb-fabio.local (1197)] INFO : Environment: production
+[05/04/15 17:26:12 +0200 mcb-fabio.local (1197)] INFO : Dispatcher: mongrel
+[05/04/15 17:26:12 +0200 mcb-fabio.local (1197)] INFO : Application: production
+[05/04/15 17:26:12 +0200 mcb-fabio.local (1197)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'.
+[05/04/15 17:26:12 +0200 mcb-fabio.local (1197)] INFO : Installing ActiveRecord 4 instrumentation
+[05/04/15 17:26:12 +0200 mcb-fabio.local (1197)] INFO : Installing Dalli Memcache instrumentation
+[05/04/15 17:26:12 +0200 mcb-fabio.local (1197)] INFO : Installing Net instrumentation
+[05/04/15 17:26:12 +0200 mcb-fabio.local (1197)] INFO : Installing deferred Rack instrumentation
+[05/04/15 17:26:12 +0200 mcb-fabio.local (1197)] INFO : Installing Rack::Builder middleware instrumentation
+[05/04/15 17:26:12 +0200 mcb-fabio.local (1197)] INFO : Installing Rails 3+ middleware instrumentation
+[05/04/15 17:26:12 +0200 mcb-fabio.local (1197)] INFO : Installing Resque instrumentation
+[05/04/15 17:26:12 +0200 mcb-fabio.local (1197)] INFO : Installing Rails 4 Controller instrumentation
+[05/04/15 17:26:12 +0200 mcb-fabio.local (1197)] INFO : Installing Rails 4 view instrumentation
+[05/04/15 17:26:12 +0200 mcb-fabio.local (1197)] INFO : Installing Rails 4 Error instrumentation
+[05/04/15 17:26:12 +0200 mcb-fabio.local (1197)] INFO : Finished instrumentation
+[05/04/15 17:26:13 +0200 mcb-fabio.local (1197)] INFO : Doing deferred dependency-detection before Rack startup
+[05/04/15 17:26:22 +0200 mcb-fabio.local (1197)] ERROR : Invalid license key, please contact support@newrelic.com
+[05/04/15 17:26:22 +0200 mcb-fabio.local (1197)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[05/04/15 17:27:36 +0200 mcb-fabio.local (1197)] INFO : Starting Agent shutdown
+[05/04/15 17:28:54 +0200 mcb-fabio.local (1244)] INFO : Starting the New Relic agent in "production" environment.
+[05/04/15 17:28:54 +0200 mcb-fabio.local (1244)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/04/15 17:28:54 +0200 mcb-fabio.local (1244)] WARN : No configuration file found. Working directory = /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak
+[05/04/15 17:28:54 +0200 mcb-fabio.local (1244)] WARN : Looked in these locations (based on defaults): /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/.newrelic/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/newrelic.yml
+[05/04/15 17:28:54 +0200 mcb-fabio.local (1244)] INFO : Environment: production
+[05/04/15 17:28:54 +0200 mcb-fabio.local (1244)] INFO : Dispatcher: mongrel
+[05/04/15 17:28:54 +0200 mcb-fabio.local (1244)] INFO : Application: production
+[05/04/15 17:28:54 +0200 mcb-fabio.local (1244)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'.
+[05/04/15 17:28:54 +0200 mcb-fabio.local (1244)] INFO : Installing ActiveRecord 4 instrumentation
+[05/04/15 17:28:54 +0200 mcb-fabio.local (1244)] INFO : Installing Dalli Memcache instrumentation
+[05/04/15 17:28:54 +0200 mcb-fabio.local (1244)] INFO : Installing Net instrumentation
+[05/04/15 17:28:54 +0200 mcb-fabio.local (1244)] INFO : Installing deferred Rack instrumentation
+[05/04/15 17:28:54 +0200 mcb-fabio.local (1244)] INFO : Installing Rack::Builder middleware instrumentation
+[05/04/15 17:28:54 +0200 mcb-fabio.local (1244)] INFO : Installing Rails 3+ middleware instrumentation
+[05/04/15 17:28:54 +0200 mcb-fabio.local (1244)] INFO : Installing Resque instrumentation
+[05/04/15 17:28:54 +0200 mcb-fabio.local (1244)] INFO : Installing Rails 4 Controller instrumentation
+[05/04/15 17:28:54 +0200 mcb-fabio.local (1244)] INFO : Installing Rails 4 view instrumentation
+[05/04/15 17:28:54 +0200 mcb-fabio.local (1244)] INFO : Installing Rails 4 Error instrumentation
+[05/04/15 17:28:54 +0200 mcb-fabio.local (1244)] INFO : Finished instrumentation
+[05/04/15 17:28:55 +0200 mcb-fabio.local (1244)] INFO : Doing deferred dependency-detection before Rack startup
+[05/04/15 17:29:12 +0200 mcb-fabio.local (1244)] ERROR : Invalid license key, please contact support@newrelic.com
+[05/04/15 17:29:12 +0200 mcb-fabio.local (1244)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[05/04/15 17:31:47 +0200 mcb-fabio.local (1244)] INFO : Starting Agent shutdown
+[05/04/15 17:31:53 +0200 mcb-fabio.local (1292)] INFO : Starting the New Relic agent in "production" environment.
+[05/04/15 17:31:53 +0200 mcb-fabio.local (1292)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/04/15 17:31:53 +0200 mcb-fabio.local (1292)] WARN : No configuration file found. Working directory = /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak
+[05/04/15 17:31:53 +0200 mcb-fabio.local (1292)] WARN : Looked in these locations (based on defaults): /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/.newrelic/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/newrelic.yml
+[05/04/15 17:31:53 +0200 mcb-fabio.local (1292)] INFO : Environment: production
+[05/04/15 17:31:53 +0200 mcb-fabio.local (1292)] INFO : Dispatcher: mongrel
+[05/04/15 17:31:53 +0200 mcb-fabio.local (1292)] INFO : Application: production
+[05/04/15 17:31:53 +0200 mcb-fabio.local (1292)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'.
+[05/04/15 17:31:53 +0200 mcb-fabio.local (1292)] INFO : Installing ActiveRecord 4 instrumentation
+[05/04/15 17:31:53 +0200 mcb-fabio.local (1292)] INFO : Installing Dalli Memcache instrumentation
+[05/04/15 17:31:53 +0200 mcb-fabio.local (1292)] INFO : Installing Net instrumentation
+[05/04/15 17:31:53 +0200 mcb-fabio.local (1292)] INFO : Installing deferred Rack instrumentation
+[05/04/15 17:31:53 +0200 mcb-fabio.local (1292)] INFO : Installing Rack::Builder middleware instrumentation
+[05/04/15 17:31:53 +0200 mcb-fabio.local (1292)] INFO : Installing Rails 3+ middleware instrumentation
+[05/04/15 17:31:53 +0200 mcb-fabio.local (1292)] INFO : Installing Resque instrumentation
+[05/04/15 17:31:53 +0200 mcb-fabio.local (1292)] INFO : Installing Rails 4 Controller instrumentation
+[05/04/15 17:31:53 +0200 mcb-fabio.local (1292)] INFO : Installing Rails 4 view instrumentation
+[05/04/15 17:31:53 +0200 mcb-fabio.local (1292)] INFO : Installing Rails 4 Error instrumentation
+[05/04/15 17:31:53 +0200 mcb-fabio.local (1292)] INFO : Finished instrumentation
+[05/04/15 17:31:54 +0200 mcb-fabio.local (1292)] INFO : Doing deferred dependency-detection before Rack startup
+[05/04/15 17:32:00 +0200 mcb-fabio.local (1292)] ERROR : Invalid license key, please contact support@newrelic.com
+[05/04/15 17:32:00 +0200 mcb-fabio.local (1292)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[05/04/15 17:35:53 +0200 mcb-fabio.local (1292)] INFO : Starting Agent shutdown
+[05/04/15 17:35:59 +0200 mcb-fabio.local (1354)] INFO : Starting the New Relic agent in "production" environment.
+[05/04/15 17:35:59 +0200 mcb-fabio.local (1354)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/04/15 17:35:59 +0200 mcb-fabio.local (1354)] WARN : No configuration file found. Working directory = /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak
+[05/04/15 17:35:59 +0200 mcb-fabio.local (1354)] WARN : Looked in these locations (based on defaults): /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/.newrelic/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/newrelic.yml
+[05/04/15 17:35:59 +0200 mcb-fabio.local (1354)] INFO : Environment: production
+[05/04/15 17:35:59 +0200 mcb-fabio.local (1354)] INFO : Dispatcher: mongrel
+[05/04/15 17:35:59 +0200 mcb-fabio.local (1354)] INFO : Application: production
+[05/04/15 17:35:59 +0200 mcb-fabio.local (1354)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'.
+[05/04/15 17:35:59 +0200 mcb-fabio.local (1354)] INFO : Installing ActiveRecord 4 instrumentation
+[05/04/15 17:35:59 +0200 mcb-fabio.local (1354)] INFO : Installing Dalli Memcache instrumentation
+[05/04/15 17:35:59 +0200 mcb-fabio.local (1354)] INFO : Installing Net instrumentation
+[05/04/15 17:35:59 +0200 mcb-fabio.local (1354)] INFO : Installing deferred Rack instrumentation
+[05/04/15 17:35:59 +0200 mcb-fabio.local (1354)] INFO : Installing Rack::Builder middleware instrumentation
+[05/04/15 17:35:59 +0200 mcb-fabio.local (1354)] INFO : Installing Rails 3+ middleware instrumentation
+[05/04/15 17:35:59 +0200 mcb-fabio.local (1354)] INFO : Installing Resque instrumentation
+[05/04/15 17:35:59 +0200 mcb-fabio.local (1354)] INFO : Installing Rails 4 Controller instrumentation
+[05/04/15 17:35:59 +0200 mcb-fabio.local (1354)] INFO : Installing Rails 4 view instrumentation
+[05/04/15 17:35:59 +0200 mcb-fabio.local (1354)] INFO : Installing Rails 4 Error instrumentation
+[05/04/15 17:35:59 +0200 mcb-fabio.local (1354)] INFO : Finished instrumentation
+[05/04/15 17:36:00 +0200 mcb-fabio.local (1354)] INFO : Doing deferred dependency-detection before Rack startup
+[05/04/15 17:36:08 +0200 mcb-fabio.local (1354)] ERROR : Invalid license key, please contact support@newrelic.com
+[05/04/15 17:36:08 +0200 mcb-fabio.local (1354)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[05/04/15 17:36:55 +0200 mcb-fabio.local (1354)] INFO : Starting Agent shutdown
+[05/04/15 17:37:05 +0200 mcb-fabio.local (1376)] INFO : Starting the New Relic agent in "production" environment.
+[05/04/15 17:37:05 +0200 mcb-fabio.local (1376)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/04/15 17:37:05 +0200 mcb-fabio.local (1376)] WARN : No configuration file found. Working directory = /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak
+[05/04/15 17:37:05 +0200 mcb-fabio.local (1376)] WARN : Looked in these locations (based on defaults): /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/.newrelic/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/newrelic.yml
+[05/04/15 17:37:05 +0200 mcb-fabio.local (1376)] INFO : Environment: production
+[05/04/15 17:37:05 +0200 mcb-fabio.local (1376)] INFO : Dispatcher: mongrel
+[05/04/15 17:37:05 +0200 mcb-fabio.local (1376)] INFO : Application: production
+[05/04/15 17:37:05 +0200 mcb-fabio.local (1376)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'.
+[05/04/15 17:37:05 +0200 mcb-fabio.local (1376)] INFO : Installing ActiveRecord 4 instrumentation
+[05/04/15 17:37:05 +0200 mcb-fabio.local (1376)] INFO : Installing Dalli Memcache instrumentation
+[05/04/15 17:37:05 +0200 mcb-fabio.local (1376)] INFO : Installing Net instrumentation
+[05/04/15 17:37:05 +0200 mcb-fabio.local (1376)] INFO : Installing deferred Rack instrumentation
+[05/04/15 17:37:05 +0200 mcb-fabio.local (1376)] INFO : Installing Rack::Builder middleware instrumentation
+[05/04/15 17:37:05 +0200 mcb-fabio.local (1376)] INFO : Installing Rails 3+ middleware instrumentation
+[05/04/15 17:37:05 +0200 mcb-fabio.local (1376)] INFO : Installing Resque instrumentation
+[05/04/15 17:37:05 +0200 mcb-fabio.local (1376)] INFO : Installing Rails 4 Controller instrumentation
+[05/04/15 17:37:05 +0200 mcb-fabio.local (1376)] INFO : Installing Rails 4 view instrumentation
+[05/04/15 17:37:05 +0200 mcb-fabio.local (1376)] INFO : Installing Rails 4 Error instrumentation
+[05/04/15 17:37:05 +0200 mcb-fabio.local (1376)] INFO : Finished instrumentation
+[05/04/15 17:37:06 +0200 mcb-fabio.local (1376)] INFO : Doing deferred dependency-detection before Rack startup
+[05/04/15 17:37:12 +0200 mcb-fabio.local (1376)] ERROR : Invalid license key, please contact support@newrelic.com
+[05/04/15 17:37:12 +0200 mcb-fabio.local (1376)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[05/04/15 17:37:50 +0200 mcb-fabio.local (1376)] INFO : Starting Agent shutdown
+[05/04/15 17:37:56 +0200 mcb-fabio.local (1394)] INFO : Starting the New Relic agent in "production" environment.
+[05/04/15 17:37:56 +0200 mcb-fabio.local (1394)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/04/15 17:37:56 +0200 mcb-fabio.local (1394)] WARN : No configuration file found. Working directory = /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak
+[05/04/15 17:37:56 +0200 mcb-fabio.local (1394)] WARN : Looked in these locations (based on defaults): /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/.newrelic/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/newrelic.yml
+[05/04/15 17:37:56 +0200 mcb-fabio.local (1394)] INFO : Environment: production
+[05/04/15 17:37:56 +0200 mcb-fabio.local (1394)] INFO : Dispatcher: mongrel
+[05/04/15 17:37:56 +0200 mcb-fabio.local (1394)] INFO : Application: production
+[05/04/15 17:37:56 +0200 mcb-fabio.local (1394)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'.
+[05/04/15 17:37:56 +0200 mcb-fabio.local (1394)] INFO : Installing ActiveRecord 4 instrumentation
+[05/04/15 17:37:56 +0200 mcb-fabio.local (1394)] INFO : Installing Dalli Memcache instrumentation
+[05/04/15 17:37:56 +0200 mcb-fabio.local (1394)] INFO : Installing Net instrumentation
+[05/04/15 17:37:56 +0200 mcb-fabio.local (1394)] INFO : Installing deferred Rack instrumentation
+[05/04/15 17:37:56 +0200 mcb-fabio.local (1394)] INFO : Installing Rack::Builder middleware instrumentation
+[05/04/15 17:37:56 +0200 mcb-fabio.local (1394)] INFO : Installing Rails 3+ middleware instrumentation
+[05/04/15 17:37:56 +0200 mcb-fabio.local (1394)] INFO : Installing Resque instrumentation
+[05/04/15 17:37:56 +0200 mcb-fabio.local (1394)] INFO : Installing Rails 4 Controller instrumentation
+[05/04/15 17:37:56 +0200 mcb-fabio.local (1394)] INFO : Installing Rails 4 view instrumentation
+[05/04/15 17:37:56 +0200 mcb-fabio.local (1394)] INFO : Installing Rails 4 Error instrumentation
+[05/04/15 17:37:56 +0200 mcb-fabio.local (1394)] INFO : Finished instrumentation
+[05/04/15 17:37:57 +0200 mcb-fabio.local (1394)] INFO : Doing deferred dependency-detection before Rack startup
+[05/04/15 17:38:01 +0200 mcb-fabio.local (1394)] ERROR : Invalid license key, please contact support@newrelic.com
+[05/04/15 17:38:01 +0200 mcb-fabio.local (1394)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[05/04/15 17:40:24 +0200 mcb-fabio.local (1394)] INFO : Starting Agent shutdown
+[05/04/15 17:40:31 +0200 mcb-fabio.local (1436)] INFO : Starting the New Relic agent in "production" environment.
+[05/04/15 17:40:31 +0200 mcb-fabio.local (1436)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/04/15 17:40:31 +0200 mcb-fabio.local (1436)] WARN : No configuration file found. Working directory = /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak
+[05/04/15 17:40:31 +0200 mcb-fabio.local (1436)] WARN : Looked in these locations (based on defaults): /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/.newrelic/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/newrelic.yml
+[05/04/15 17:40:31 +0200 mcb-fabio.local (1436)] INFO : Environment: production
+[05/04/15 17:40:31 +0200 mcb-fabio.local (1436)] INFO : Dispatcher: mongrel
+[05/04/15 17:40:31 +0200 mcb-fabio.local (1436)] INFO : Application: production
+[05/04/15 17:40:31 +0200 mcb-fabio.local (1436)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'.
+[05/04/15 17:40:31 +0200 mcb-fabio.local (1436)] INFO : Installing ActiveRecord 4 instrumentation
+[05/04/15 17:40:31 +0200 mcb-fabio.local (1436)] INFO : Installing Dalli Memcache instrumentation
+[05/04/15 17:40:31 +0200 mcb-fabio.local (1436)] INFO : Installing Net instrumentation
+[05/04/15 17:40:31 +0200 mcb-fabio.local (1436)] INFO : Installing deferred Rack instrumentation
+[05/04/15 17:40:31 +0200 mcb-fabio.local (1436)] INFO : Installing Rack::Builder middleware instrumentation
+[05/04/15 17:40:31 +0200 mcb-fabio.local (1436)] INFO : Installing Rails 3+ middleware instrumentation
+[05/04/15 17:40:31 +0200 mcb-fabio.local (1436)] INFO : Installing Resque instrumentation
+[05/04/15 17:40:31 +0200 mcb-fabio.local (1436)] INFO : Installing Rails 4 Controller instrumentation
+[05/04/15 17:40:31 +0200 mcb-fabio.local (1436)] INFO : Installing Rails 4 view instrumentation
+[05/04/15 17:40:31 +0200 mcb-fabio.local (1436)] INFO : Installing Rails 4 Error instrumentation
+[05/04/15 17:40:31 +0200 mcb-fabio.local (1436)] INFO : Finished instrumentation
+[05/04/15 17:40:32 +0200 mcb-fabio.local (1436)] INFO : Doing deferred dependency-detection before Rack startup
+[05/04/15 17:40:40 +0200 mcb-fabio.local (1436)] ERROR : Invalid license key, please contact support@newrelic.com
+[05/04/15 17:40:40 +0200 mcb-fabio.local (1436)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[05/04/15 17:41:12 +0200 mcb-fabio.local (1436)] INFO : Starting Agent shutdown
+[05/04/15 17:41:20 +0200 mcb-fabio.local (1451)] INFO : Starting the New Relic agent in "production" environment.
+[05/04/15 17:41:20 +0200 mcb-fabio.local (1451)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/04/15 17:41:20 +0200 mcb-fabio.local (1451)] WARN : No configuration file found. Working directory = /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak
+[05/04/15 17:41:20 +0200 mcb-fabio.local (1451)] WARN : Looked in these locations (based on defaults): /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/.newrelic/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/newrelic.yml
+[05/04/15 17:41:20 +0200 mcb-fabio.local (1451)] INFO : Environment: production
+[05/04/15 17:41:20 +0200 mcb-fabio.local (1451)] INFO : Dispatcher: mongrel
+[05/04/15 17:41:20 +0200 mcb-fabio.local (1451)] INFO : Application: production
+[05/04/15 17:41:20 +0200 mcb-fabio.local (1451)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'.
+[05/04/15 17:41:20 +0200 mcb-fabio.local (1451)] INFO : Installing ActiveRecord 4 instrumentation
+[05/04/15 17:41:20 +0200 mcb-fabio.local (1451)] INFO : Installing Dalli Memcache instrumentation
+[05/04/15 17:41:20 +0200 mcb-fabio.local (1451)] INFO : Installing Net instrumentation
+[05/04/15 17:41:20 +0200 mcb-fabio.local (1451)] INFO : Installing deferred Rack instrumentation
+[05/04/15 17:41:20 +0200 mcb-fabio.local (1451)] INFO : Installing Rack::Builder middleware instrumentation
+[05/04/15 17:41:20 +0200 mcb-fabio.local (1451)] INFO : Installing Rails 3+ middleware instrumentation
+[05/04/15 17:41:20 +0200 mcb-fabio.local (1451)] INFO : Installing Resque instrumentation
+[05/04/15 17:41:20 +0200 mcb-fabio.local (1451)] INFO : Installing Rails 4 Controller instrumentation
+[05/04/15 17:41:20 +0200 mcb-fabio.local (1451)] INFO : Installing Rails 4 view instrumentation
+[05/04/15 17:41:20 +0200 mcb-fabio.local (1451)] INFO : Installing Rails 4 Error instrumentation
+[05/04/15 17:41:20 +0200 mcb-fabio.local (1451)] INFO : Finished instrumentation
+[05/04/15 17:41:21 +0200 mcb-fabio.local (1451)] INFO : Doing deferred dependency-detection before Rack startup
+[05/04/15 17:41:28 +0200 mcb-fabio.local (1451)] ERROR : Invalid license key, please contact support@newrelic.com
+[05/04/15 17:41:28 +0200 mcb-fabio.local (1451)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[05/04/15 17:46:34 +0200 mcb-fabio.local (1451)] INFO : Starting Agent shutdown
+[05/04/15 17:46:40 +0200 mcb-fabio.local (1540)] INFO : Starting the New Relic agent in "production" environment.
+[05/04/15 17:46:40 +0200 mcb-fabio.local (1540)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/04/15 17:46:40 +0200 mcb-fabio.local (1540)] WARN : No configuration file found. Working directory = /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak
+[05/04/15 17:46:40 +0200 mcb-fabio.local (1540)] WARN : Looked in these locations (based on defaults): /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/.newrelic/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/newrelic.yml
+[05/04/15 17:46:40 +0200 mcb-fabio.local (1540)] INFO : Environment: production
+[05/04/15 17:46:40 +0200 mcb-fabio.local (1540)] INFO : Dispatcher: mongrel
+[05/04/15 17:46:40 +0200 mcb-fabio.local (1540)] INFO : Application: production
+[05/04/15 17:46:40 +0200 mcb-fabio.local (1540)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'.
+[05/04/15 17:46:40 +0200 mcb-fabio.local (1540)] INFO : Installing ActiveRecord 4 instrumentation
+[05/04/15 17:46:40 +0200 mcb-fabio.local (1540)] INFO : Installing Dalli Memcache instrumentation
+[05/04/15 17:46:40 +0200 mcb-fabio.local (1540)] INFO : Installing Net instrumentation
+[05/04/15 17:46:40 +0200 mcb-fabio.local (1540)] INFO : Installing deferred Rack instrumentation
+[05/04/15 17:46:40 +0200 mcb-fabio.local (1540)] INFO : Installing Rack::Builder middleware instrumentation
+[05/04/15 17:46:40 +0200 mcb-fabio.local (1540)] INFO : Installing Rails 3+ middleware instrumentation
+[05/04/15 17:46:40 +0200 mcb-fabio.local (1540)] INFO : Installing Resque instrumentation
+[05/04/15 17:46:40 +0200 mcb-fabio.local (1540)] INFO : Installing Rails 4 Controller instrumentation
+[05/04/15 17:46:40 +0200 mcb-fabio.local (1540)] INFO : Installing Rails 4 view instrumentation
+[05/04/15 17:46:40 +0200 mcb-fabio.local (1540)] INFO : Installing Rails 4 Error instrumentation
+[05/04/15 17:46:40 +0200 mcb-fabio.local (1540)] INFO : Finished instrumentation
+[05/04/15 17:46:41 +0200 mcb-fabio.local (1540)] INFO : Doing deferred dependency-detection before Rack startup
+[05/04/15 17:46:46 +0200 mcb-fabio.local (1540)] ERROR : Invalid license key, please contact support@newrelic.com
+[05/04/15 17:46:46 +0200 mcb-fabio.local (1540)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[05/04/15 17:47:50 +0200 mcb-fabio.local (1540)] INFO : Starting Agent shutdown
+[05/04/15 17:47:56 +0200 mcb-fabio.local (1563)] INFO : Starting the New Relic agent in "production" environment.
+[05/04/15 17:47:56 +0200 mcb-fabio.local (1563)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/04/15 17:47:56 +0200 mcb-fabio.local (1563)] WARN : No configuration file found. Working directory = /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak
+[05/04/15 17:47:56 +0200 mcb-fabio.local (1563)] WARN : Looked in these locations (based on defaults): /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/.newrelic/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/newrelic.yml
+[05/04/15 17:47:56 +0200 mcb-fabio.local (1563)] INFO : Environment: production
+[05/04/15 17:47:56 +0200 mcb-fabio.local (1563)] INFO : Dispatcher: mongrel
+[05/04/15 17:47:56 +0200 mcb-fabio.local (1563)] INFO : Application: production
+[05/04/15 17:47:56 +0200 mcb-fabio.local (1563)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'.
+[05/04/15 17:47:56 +0200 mcb-fabio.local (1563)] INFO : Installing ActiveRecord 4 instrumentation
+[05/04/15 17:47:56 +0200 mcb-fabio.local (1563)] INFO : Installing Dalli Memcache instrumentation
+[05/04/15 17:47:56 +0200 mcb-fabio.local (1563)] INFO : Installing Net instrumentation
+[05/04/15 17:47:56 +0200 mcb-fabio.local (1563)] INFO : Installing deferred Rack instrumentation
+[05/04/15 17:47:56 +0200 mcb-fabio.local (1563)] INFO : Installing Rack::Builder middleware instrumentation
+[05/04/15 17:47:56 +0200 mcb-fabio.local (1563)] INFO : Installing Rails 3+ middleware instrumentation
+[05/04/15 17:47:56 +0200 mcb-fabio.local (1563)] INFO : Installing Resque instrumentation
+[05/04/15 17:47:56 +0200 mcb-fabio.local (1563)] INFO : Installing Rails 4 Controller instrumentation
+[05/04/15 17:47:56 +0200 mcb-fabio.local (1563)] INFO : Installing Rails 4 view instrumentation
+[05/04/15 17:47:56 +0200 mcb-fabio.local (1563)] INFO : Installing Rails 4 Error instrumentation
+[05/04/15 17:47:56 +0200 mcb-fabio.local (1563)] INFO : Finished instrumentation
+[05/04/15 17:47:57 +0200 mcb-fabio.local (1563)] INFO : Doing deferred dependency-detection before Rack startup
+[05/04/15 17:48:06 +0200 mcb-fabio.local (1563)] ERROR : Invalid license key, please contact support@newrelic.com
+[05/04/15 17:48:06 +0200 mcb-fabio.local (1563)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[05/04/15 17:49:50 +0200 mcb-fabio.local (1563)] INFO : Starting Agent shutdown
+[05/04/15 17:49:56 +0200 mcb-fabio.local (1594)] INFO : Starting the New Relic agent in "production" environment.
+[05/04/15 17:49:56 +0200 mcb-fabio.local (1594)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/04/15 17:49:56 +0200 mcb-fabio.local (1594)] WARN : No configuration file found. Working directory = /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak
+[05/04/15 17:49:56 +0200 mcb-fabio.local (1594)] WARN : Looked in these locations (based on defaults): /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/.newrelic/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/newrelic.yml
+[05/04/15 17:49:56 +0200 mcb-fabio.local (1594)] INFO : Environment: production
+[05/04/15 17:49:56 +0200 mcb-fabio.local (1594)] INFO : Dispatcher: mongrel
+[05/04/15 17:49:56 +0200 mcb-fabio.local (1594)] INFO : Application: production
+[05/04/15 17:49:56 +0200 mcb-fabio.local (1594)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'.
+[05/04/15 17:49:56 +0200 mcb-fabio.local (1594)] INFO : Installing ActiveRecord 4 instrumentation
+[05/04/15 17:49:56 +0200 mcb-fabio.local (1594)] INFO : Installing Dalli Memcache instrumentation
+[05/04/15 17:49:56 +0200 mcb-fabio.local (1594)] INFO : Installing Net instrumentation
+[05/04/15 17:49:56 +0200 mcb-fabio.local (1594)] INFO : Installing deferred Rack instrumentation
+[05/04/15 17:49:56 +0200 mcb-fabio.local (1594)] INFO : Installing Rack::Builder middleware instrumentation
+[05/04/15 17:49:56 +0200 mcb-fabio.local (1594)] INFO : Installing Rails 3+ middleware instrumentation
+[05/04/15 17:49:56 +0200 mcb-fabio.local (1594)] INFO : Installing Resque instrumentation
+[05/04/15 17:49:56 +0200 mcb-fabio.local (1594)] INFO : Installing Rails 4 Controller instrumentation
+[05/04/15 17:49:56 +0200 mcb-fabio.local (1594)] INFO : Installing Rails 4 view instrumentation
+[05/04/15 17:49:56 +0200 mcb-fabio.local (1594)] INFO : Installing Rails 4 Error instrumentation
+[05/04/15 17:49:56 +0200 mcb-fabio.local (1594)] INFO : Finished instrumentation
+[05/04/15 17:49:57 +0200 mcb-fabio.local (1594)] INFO : Doing deferred dependency-detection before Rack startup
+[05/04/15 17:49:59 +0200 mcb-fabio.local (1594)] ERROR : Invalid license key, please contact support@newrelic.com
+[05/04/15 17:49:59 +0200 mcb-fabio.local (1594)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[05/04/15 17:50:53 +0200 mcb-fabio.local (1594)] INFO : Starting Agent shutdown
+[05/04/15 17:50:59 +0200 mcb-fabio.local (1612)] INFO : Starting the New Relic agent in "production" environment.
+[05/04/15 17:50:59 +0200 mcb-fabio.local (1612)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/04/15 17:50:59 +0200 mcb-fabio.local (1612)] WARN : No configuration file found. Working directory = /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak
+[05/04/15 17:50:59 +0200 mcb-fabio.local (1612)] WARN : Looked in these locations (based on defaults): /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/.newrelic/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/newrelic.yml
+[05/04/15 17:50:59 +0200 mcb-fabio.local (1612)] INFO : Environment: production
+[05/04/15 17:50:59 +0200 mcb-fabio.local (1612)] INFO : Dispatcher: mongrel
+[05/04/15 17:50:59 +0200 mcb-fabio.local (1612)] INFO : Application: production
+[05/04/15 17:50:59 +0200 mcb-fabio.local (1612)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'.
+[05/04/15 17:50:59 +0200 mcb-fabio.local (1612)] INFO : Installing ActiveRecord 4 instrumentation
+[05/04/15 17:50:59 +0200 mcb-fabio.local (1612)] INFO : Installing Dalli Memcache instrumentation
+[05/04/15 17:50:59 +0200 mcb-fabio.local (1612)] INFO : Installing Net instrumentation
+[05/04/15 17:50:59 +0200 mcb-fabio.local (1612)] INFO : Installing deferred Rack instrumentation
+[05/04/15 17:50:59 +0200 mcb-fabio.local (1612)] INFO : Installing Rack::Builder middleware instrumentation
+[05/04/15 17:50:59 +0200 mcb-fabio.local (1612)] INFO : Installing Rails 3+ middleware instrumentation
+[05/04/15 17:50:59 +0200 mcb-fabio.local (1612)] INFO : Installing Resque instrumentation
+[05/04/15 17:50:59 +0200 mcb-fabio.local (1612)] INFO : Installing Rails 4 Controller instrumentation
+[05/04/15 17:50:59 +0200 mcb-fabio.local (1612)] INFO : Installing Rails 4 view instrumentation
+[05/04/15 17:50:59 +0200 mcb-fabio.local (1612)] INFO : Installing Rails 4 Error instrumentation
+[05/04/15 17:50:59 +0200 mcb-fabio.local (1612)] INFO : Finished instrumentation
+[05/04/15 17:51:00 +0200 mcb-fabio.local (1612)] INFO : Doing deferred dependency-detection before Rack startup
+[05/04/15 17:51:07 +0200 mcb-fabio.local (1612)] ERROR : Invalid license key, please contact support@newrelic.com
+[05/04/15 17:51:07 +0200 mcb-fabio.local (1612)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[05/04/15 17:52:51 +0200 mcb-fabio.local (1612)] INFO : Starting Agent shutdown
+[05/04/15 17:52:58 +0200 mcb-fabio.local (1650)] INFO : Starting the New Relic agent in "production" environment.
+[05/04/15 17:52:58 +0200 mcb-fabio.local (1650)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/04/15 17:52:58 +0200 mcb-fabio.local (1650)] WARN : No configuration file found. Working directory = /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak
+[05/04/15 17:52:58 +0200 mcb-fabio.local (1650)] WARN : Looked in these locations (based on defaults): /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/.newrelic/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/newrelic.yml
+[05/04/15 17:52:58 +0200 mcb-fabio.local (1650)] INFO : Environment: production
+[05/04/15 17:52:58 +0200 mcb-fabio.local (1650)] INFO : Dispatcher: mongrel
+[05/04/15 17:52:58 +0200 mcb-fabio.local (1650)] INFO : Application: production
+[05/04/15 17:52:58 +0200 mcb-fabio.local (1650)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'.
+[05/04/15 17:52:58 +0200 mcb-fabio.local (1650)] INFO : Installing ActiveRecord 4 instrumentation
+[05/04/15 17:52:58 +0200 mcb-fabio.local (1650)] INFO : Installing Dalli Memcache instrumentation
+[05/04/15 17:52:58 +0200 mcb-fabio.local (1650)] INFO : Installing Net instrumentation
+[05/04/15 17:52:58 +0200 mcb-fabio.local (1650)] INFO : Installing deferred Rack instrumentation
+[05/04/15 17:52:58 +0200 mcb-fabio.local (1650)] INFO : Installing Rack::Builder middleware instrumentation
+[05/04/15 17:52:58 +0200 mcb-fabio.local (1650)] INFO : Installing Rails 3+ middleware instrumentation
+[05/04/15 17:52:58 +0200 mcb-fabio.local (1650)] INFO : Installing Resque instrumentation
+[05/04/15 17:52:58 +0200 mcb-fabio.local (1650)] INFO : Installing Rails 4 Controller instrumentation
+[05/04/15 17:52:58 +0200 mcb-fabio.local (1650)] INFO : Installing Rails 4 view instrumentation
+[05/04/15 17:52:58 +0200 mcb-fabio.local (1650)] INFO : Installing Rails 4 Error instrumentation
+[05/04/15 17:52:58 +0200 mcb-fabio.local (1650)] INFO : Finished instrumentation
+[05/04/15 17:52:59 +0200 mcb-fabio.local (1650)] INFO : Doing deferred dependency-detection before Rack startup
+[05/04/15 17:53:16 +0200 mcb-fabio.local (1650)] ERROR : Invalid license key, please contact support@newrelic.com
+[05/04/15 17:53:16 +0200 mcb-fabio.local (1650)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[05/04/15 17:54:42 +0200 mcb-fabio.local (1650)] INFO : Starting Agent shutdown
+[05/04/15 17:54:47 +0200 mcb-fabio.local (1681)] INFO : Starting the New Relic agent in "production" environment.
+[05/04/15 17:54:47 +0200 mcb-fabio.local (1681)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/04/15 17:54:47 +0200 mcb-fabio.local (1681)] WARN : No configuration file found. Working directory = /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak
+[05/04/15 17:54:47 +0200 mcb-fabio.local (1681)] WARN : Looked in these locations (based on defaults): /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/.newrelic/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/newrelic.yml
+[05/04/15 17:54:47 +0200 mcb-fabio.local (1681)] INFO : Environment: production
+[05/04/15 17:54:47 +0200 mcb-fabio.local (1681)] INFO : Dispatcher: mongrel
+[05/04/15 17:54:47 +0200 mcb-fabio.local (1681)] INFO : Application: production
+[05/04/15 17:54:47 +0200 mcb-fabio.local (1681)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'.
+[05/04/15 17:54:47 +0200 mcb-fabio.local (1681)] INFO : Installing ActiveRecord 4 instrumentation
+[05/04/15 17:54:47 +0200 mcb-fabio.local (1681)] INFO : Installing Dalli Memcache instrumentation
+[05/04/15 17:54:47 +0200 mcb-fabio.local (1681)] INFO : Installing Net instrumentation
+[05/04/15 17:54:47 +0200 mcb-fabio.local (1681)] INFO : Installing deferred Rack instrumentation
+[05/04/15 17:54:47 +0200 mcb-fabio.local (1681)] INFO : Installing Rack::Builder middleware instrumentation
+[05/04/15 17:54:47 +0200 mcb-fabio.local (1681)] INFO : Installing Rails 3+ middleware instrumentation
+[05/04/15 17:54:47 +0200 mcb-fabio.local (1681)] INFO : Installing Resque instrumentation
+[05/04/15 17:54:47 +0200 mcb-fabio.local (1681)] INFO : Installing Rails 4 Controller instrumentation
+[05/04/15 17:54:47 +0200 mcb-fabio.local (1681)] INFO : Installing Rails 4 view instrumentation
+[05/04/15 17:54:47 +0200 mcb-fabio.local (1681)] INFO : Installing Rails 4 Error instrumentation
+[05/04/15 17:54:47 +0200 mcb-fabio.local (1681)] INFO : Finished instrumentation
+[05/04/15 17:54:48 +0200 mcb-fabio.local (1681)] INFO : Doing deferred dependency-detection before Rack startup
+[05/04/15 17:54:52 +0200 mcb-fabio.local (1681)] ERROR : Invalid license key, please contact support@newrelic.com
+[05/04/15 17:54:52 +0200 mcb-fabio.local (1681)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[05/04/15 17:55:35 +0200 mcb-fabio.local (1681)] INFO : Starting Agent shutdown
+[05/04/15 17:55:43 +0200 mcb-fabio.local (1698)] INFO : Starting the New Relic agent in "production" environment.
+[05/04/15 17:55:43 +0200 mcb-fabio.local (1698)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/04/15 17:55:43 +0200 mcb-fabio.local (1698)] WARN : No configuration file found. Working directory = /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak
+[05/04/15 17:55:43 +0200 mcb-fabio.local (1698)] WARN : Looked in these locations (based on defaults): /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/.newrelic/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/newrelic.yml
+[05/04/15 17:55:43 +0200 mcb-fabio.local (1698)] INFO : Environment: production
+[05/04/15 17:55:43 +0200 mcb-fabio.local (1698)] INFO : Dispatcher: mongrel
+[05/04/15 17:55:43 +0200 mcb-fabio.local (1698)] INFO : Application: production
+[05/04/15 17:55:43 +0200 mcb-fabio.local (1698)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'.
+[05/04/15 17:55:43 +0200 mcb-fabio.local (1698)] INFO : Installing ActiveRecord 4 instrumentation
+[05/04/15 17:55:43 +0200 mcb-fabio.local (1698)] INFO : Installing Dalli Memcache instrumentation
+[05/04/15 17:55:43 +0200 mcb-fabio.local (1698)] INFO : Installing Net instrumentation
+[05/04/15 17:55:43 +0200 mcb-fabio.local (1698)] INFO : Installing deferred Rack instrumentation
+[05/04/15 17:55:43 +0200 mcb-fabio.local (1698)] INFO : Installing Rack::Builder middleware instrumentation
+[05/04/15 17:55:43 +0200 mcb-fabio.local (1698)] INFO : Installing Rails 3+ middleware instrumentation
+[05/04/15 17:55:43 +0200 mcb-fabio.local (1698)] INFO : Installing Resque instrumentation
+[05/04/15 17:55:43 +0200 mcb-fabio.local (1698)] INFO : Installing Rails 4 Controller instrumentation
+[05/04/15 17:55:43 +0200 mcb-fabio.local (1698)] INFO : Installing Rails 4 view instrumentation
+[05/04/15 17:55:43 +0200 mcb-fabio.local (1698)] INFO : Installing Rails 4 Error instrumentation
+[05/04/15 17:55:43 +0200 mcb-fabio.local (1698)] INFO : Finished instrumentation
+[05/04/15 17:55:44 +0200 mcb-fabio.local (1698)] INFO : Doing deferred dependency-detection before Rack startup
+[05/04/15 17:55:51 +0200 mcb-fabio.local (1698)] ERROR : Invalid license key, please contact support@newrelic.com
+[05/04/15 17:55:51 +0200 mcb-fabio.local (1698)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[05/04/15 17:56:18 +0200 mcb-fabio.local (1698)] INFO : Starting Agent shutdown
+[05/04/15 17:56:23 +0200 mcb-fabio.local (1713)] INFO : Starting the New Relic agent in "production" environment.
+[05/04/15 17:56:23 +0200 mcb-fabio.local (1713)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/04/15 17:56:23 +0200 mcb-fabio.local (1713)] WARN : No configuration file found. Working directory = /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak
+[05/04/15 17:56:23 +0200 mcb-fabio.local (1713)] WARN : Looked in these locations (based on defaults): /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/.newrelic/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/newrelic.yml
+[05/04/15 17:56:23 +0200 mcb-fabio.local (1713)] INFO : Environment: production
+[05/04/15 17:56:23 +0200 mcb-fabio.local (1713)] INFO : Dispatcher: mongrel
+[05/04/15 17:56:23 +0200 mcb-fabio.local (1713)] INFO : Application: production
+[05/04/15 17:56:23 +0200 mcb-fabio.local (1713)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'.
+[05/04/15 17:56:23 +0200 mcb-fabio.local (1713)] INFO : Installing ActiveRecord 4 instrumentation
+[05/04/15 17:56:23 +0200 mcb-fabio.local (1713)] INFO : Installing Dalli Memcache instrumentation
+[05/04/15 17:56:23 +0200 mcb-fabio.local (1713)] INFO : Installing Net instrumentation
+[05/04/15 17:56:23 +0200 mcb-fabio.local (1713)] INFO : Installing deferred Rack instrumentation
+[05/04/15 17:56:23 +0200 mcb-fabio.local (1713)] INFO : Installing Rack::Builder middleware instrumentation
+[05/04/15 17:56:23 +0200 mcb-fabio.local (1713)] INFO : Installing Rails 3+ middleware instrumentation
+[05/04/15 17:56:23 +0200 mcb-fabio.local (1713)] INFO : Installing Resque instrumentation
+[05/04/15 17:56:23 +0200 mcb-fabio.local (1713)] INFO : Installing Rails 4 Controller instrumentation
+[05/04/15 17:56:23 +0200 mcb-fabio.local (1713)] INFO : Installing Rails 4 view instrumentation
+[05/04/15 17:56:23 +0200 mcb-fabio.local (1713)] INFO : Installing Rails 4 Error instrumentation
+[05/04/15 17:56:23 +0200 mcb-fabio.local (1713)] INFO : Finished instrumentation
+[05/04/15 17:56:24 +0200 mcb-fabio.local (1713)] INFO : Doing deferred dependency-detection before Rack startup
+[05/04/15 17:56:30 +0200 mcb-fabio.local (1713)] ERROR : Invalid license key, please contact support@newrelic.com
+[05/04/15 17:56:30 +0200 mcb-fabio.local (1713)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[05/04/15 17:57:19 +0200 mcb-fabio.local (1713)] INFO : Starting Agent shutdown
+[05/04/15 17:57:25 +0200 mcb-fabio.local (1743)] INFO : Starting the New Relic agent in "production" environment.
+[05/04/15 17:57:25 +0200 mcb-fabio.local (1743)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/04/15 17:57:25 +0200 mcb-fabio.local (1743)] WARN : No configuration file found. Working directory = /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak
+[05/04/15 17:57:25 +0200 mcb-fabio.local (1743)] WARN : Looked in these locations (based on defaults): /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/.newrelic/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/newrelic.yml
+[05/04/15 17:57:25 +0200 mcb-fabio.local (1743)] INFO : Environment: production
+[05/04/15 17:57:25 +0200 mcb-fabio.local (1743)] INFO : Dispatcher: mongrel
+[05/04/15 17:57:25 +0200 mcb-fabio.local (1743)] INFO : Application: production
+[05/04/15 17:57:25 +0200 mcb-fabio.local (1743)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'.
+[05/04/15 17:57:25 +0200 mcb-fabio.local (1743)] INFO : Installing ActiveRecord 4 instrumentation
+[05/04/15 17:57:25 +0200 mcb-fabio.local (1743)] INFO : Installing Dalli Memcache instrumentation
+[05/04/15 17:57:25 +0200 mcb-fabio.local (1743)] INFO : Installing Net instrumentation
+[05/04/15 17:57:25 +0200 mcb-fabio.local (1743)] INFO : Installing deferred Rack instrumentation
+[05/04/15 17:57:25 +0200 mcb-fabio.local (1743)] INFO : Installing Rack::Builder middleware instrumentation
+[05/04/15 17:57:25 +0200 mcb-fabio.local (1743)] INFO : Installing Rails 3+ middleware instrumentation
+[05/04/15 17:57:25 +0200 mcb-fabio.local (1743)] INFO : Installing Resque instrumentation
+[05/04/15 17:57:25 +0200 mcb-fabio.local (1743)] INFO : Installing Rails 4 Controller instrumentation
+[05/04/15 17:57:25 +0200 mcb-fabio.local (1743)] INFO : Installing Rails 4 view instrumentation
+[05/04/15 17:57:25 +0200 mcb-fabio.local (1743)] INFO : Installing Rails 4 Error instrumentation
+[05/04/15 17:57:25 +0200 mcb-fabio.local (1743)] INFO : Finished instrumentation
+[05/04/15 17:57:26 +0200 mcb-fabio.local (1743)] INFO : Doing deferred dependency-detection before Rack startup
+[05/04/15 17:57:35 +0200 mcb-fabio.local (1743)] ERROR : Invalid license key, please contact support@newrelic.com
+[05/04/15 17:57:35 +0200 mcb-fabio.local (1743)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[05/04/15 17:57:53 +0200 mcb-fabio.local (1743)] INFO : Starting Agent shutdown
+[05/04/15 17:58:33 +0200 mcb-fabio.local (1764)] INFO : Starting the New Relic agent in "production" environment.
+[05/04/15 17:58:33 +0200 mcb-fabio.local (1764)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/04/15 17:58:33 +0200 mcb-fabio.local (1764)] WARN : No configuration file found. Working directory = /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak
+[05/04/15 17:58:33 +0200 mcb-fabio.local (1764)] WARN : Looked in these locations (based on defaults): /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/.newrelic/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/newrelic.yml
+[05/04/15 17:58:33 +0200 mcb-fabio.local (1764)] INFO : Environment: production
+[05/04/15 17:58:33 +0200 mcb-fabio.local (1764)] INFO : Dispatcher: mongrel
+[05/04/15 17:58:33 +0200 mcb-fabio.local (1764)] INFO : Application: production
+[05/04/15 17:58:33 +0200 mcb-fabio.local (1764)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'.
+[05/04/15 17:58:33 +0200 mcb-fabio.local (1764)] INFO : Installing ActiveRecord 4 instrumentation
+[05/04/15 17:58:33 +0200 mcb-fabio.local (1764)] INFO : Installing Dalli Memcache instrumentation
+[05/04/15 17:58:33 +0200 mcb-fabio.local (1764)] INFO : Installing Net instrumentation
+[05/04/15 17:58:33 +0200 mcb-fabio.local (1764)] INFO : Installing deferred Rack instrumentation
+[05/04/15 17:58:33 +0200 mcb-fabio.local (1764)] INFO : Installing Rack::Builder middleware instrumentation
+[05/04/15 17:58:33 +0200 mcb-fabio.local (1764)] INFO : Installing Rails 3+ middleware instrumentation
+[05/04/15 17:58:33 +0200 mcb-fabio.local (1764)] INFO : Installing Resque instrumentation
+[05/04/15 17:58:33 +0200 mcb-fabio.local (1764)] INFO : Installing Rails 4 Controller instrumentation
+[05/04/15 17:58:33 +0200 mcb-fabio.local (1764)] INFO : Installing Rails 4 view instrumentation
+[05/04/15 17:58:33 +0200 mcb-fabio.local (1764)] INFO : Installing Rails 4 Error instrumentation
+[05/04/15 17:58:33 +0200 mcb-fabio.local (1764)] INFO : Finished instrumentation
+[05/04/15 17:58:34 +0200 mcb-fabio.local (1764)] INFO : Doing deferred dependency-detection before Rack startup
+[05/04/15 17:58:41 +0200 mcb-fabio.local (1764)] ERROR : Invalid license key, please contact support@newrelic.com
+[05/04/15 17:58:41 +0200 mcb-fabio.local (1764)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[05/04/15 17:59:40 +0200 mcb-fabio.local (1764)] INFO : Starting Agent shutdown
+[05/04/15 17:59:46 +0200 mcb-fabio.local (1787)] INFO : Starting the New Relic agent in "production" environment.
+[05/04/15 17:59:46 +0200 mcb-fabio.local (1787)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/04/15 17:59:46 +0200 mcb-fabio.local (1787)] WARN : No configuration file found. Working directory = /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak
+[05/04/15 17:59:46 +0200 mcb-fabio.local (1787)] WARN : Looked in these locations (based on defaults): /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/.newrelic/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/newrelic.yml
+[05/04/15 17:59:46 +0200 mcb-fabio.local (1787)] INFO : Environment: production
+[05/04/15 17:59:46 +0200 mcb-fabio.local (1787)] INFO : Dispatcher: mongrel
+[05/04/15 17:59:46 +0200 mcb-fabio.local (1787)] INFO : Application: production
+[05/04/15 17:59:46 +0200 mcb-fabio.local (1787)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'.
+[05/04/15 17:59:46 +0200 mcb-fabio.local (1787)] INFO : Installing ActiveRecord 4 instrumentation
+[05/04/15 17:59:46 +0200 mcb-fabio.local (1787)] INFO : Installing Dalli Memcache instrumentation
+[05/04/15 17:59:46 +0200 mcb-fabio.local (1787)] INFO : Installing Net instrumentation
+[05/04/15 17:59:46 +0200 mcb-fabio.local (1787)] INFO : Installing deferred Rack instrumentation
+[05/04/15 17:59:46 +0200 mcb-fabio.local (1787)] INFO : Installing Rack::Builder middleware instrumentation
+[05/04/15 17:59:46 +0200 mcb-fabio.local (1787)] INFO : Installing Rails 3+ middleware instrumentation
+[05/04/15 17:59:46 +0200 mcb-fabio.local (1787)] INFO : Installing Resque instrumentation
+[05/04/15 17:59:46 +0200 mcb-fabio.local (1787)] INFO : Installing Rails 4 Controller instrumentation
+[05/04/15 17:59:46 +0200 mcb-fabio.local (1787)] INFO : Installing Rails 4 view instrumentation
+[05/04/15 17:59:46 +0200 mcb-fabio.local (1787)] INFO : Installing Rails 4 Error instrumentation
+[05/04/15 17:59:46 +0200 mcb-fabio.local (1787)] INFO : Finished instrumentation
+[05/04/15 17:59:47 +0200 mcb-fabio.local (1787)] INFO : Doing deferred dependency-detection before Rack startup
+[05/04/15 17:59:56 +0200 mcb-fabio.local (1787)] ERROR : Invalid license key, please contact support@newrelic.com
+[05/04/15 17:59:56 +0200 mcb-fabio.local (1787)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[05/04/15 18:00:19 +0200 mcb-fabio.local (1787)] INFO : Starting Agent shutdown
+[05/04/15 18:00:25 +0200 mcb-fabio.local (1799)] INFO : Starting the New Relic agent in "production" environment.
+[05/04/15 18:00:25 +0200 mcb-fabio.local (1799)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/04/15 18:00:25 +0200 mcb-fabio.local (1799)] WARN : No configuration file found. Working directory = /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak
+[05/04/15 18:00:25 +0200 mcb-fabio.local (1799)] WARN : Looked in these locations (based on defaults): /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/.newrelic/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/newrelic.yml
+[05/04/15 18:00:25 +0200 mcb-fabio.local (1799)] INFO : Environment: production
+[05/04/15 18:00:25 +0200 mcb-fabio.local (1799)] INFO : Dispatcher: mongrel
+[05/04/15 18:00:25 +0200 mcb-fabio.local (1799)] INFO : Application: production
+[05/04/15 18:00:25 +0200 mcb-fabio.local (1799)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'.
+[05/04/15 18:00:25 +0200 mcb-fabio.local (1799)] INFO : Installing ActiveRecord 4 instrumentation
+[05/04/15 18:00:25 +0200 mcb-fabio.local (1799)] INFO : Installing Dalli Memcache instrumentation
+[05/04/15 18:00:25 +0200 mcb-fabio.local (1799)] INFO : Installing Net instrumentation
+[05/04/15 18:00:25 +0200 mcb-fabio.local (1799)] INFO : Installing deferred Rack instrumentation
+[05/04/15 18:00:25 +0200 mcb-fabio.local (1799)] INFO : Installing Rack::Builder middleware instrumentation
+[05/04/15 18:00:25 +0200 mcb-fabio.local (1799)] INFO : Installing Rails 3+ middleware instrumentation
+[05/04/15 18:00:25 +0200 mcb-fabio.local (1799)] INFO : Installing Resque instrumentation
+[05/04/15 18:00:25 +0200 mcb-fabio.local (1799)] INFO : Installing Rails 4 Controller instrumentation
+[05/04/15 18:00:25 +0200 mcb-fabio.local (1799)] INFO : Installing Rails 4 view instrumentation
+[05/04/15 18:00:25 +0200 mcb-fabio.local (1799)] INFO : Installing Rails 4 Error instrumentation
+[05/04/15 18:00:25 +0200 mcb-fabio.local (1799)] INFO : Finished instrumentation
+[05/04/15 18:00:27 +0200 mcb-fabio.local (1799)] INFO : Doing deferred dependency-detection before Rack startup
+[05/04/15 18:00:33 +0200 mcb-fabio.local (1799)] ERROR : Invalid license key, please contact support@newrelic.com
+[05/04/15 18:00:33 +0200 mcb-fabio.local (1799)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[05/04/15 18:02:15 +0200 mcb-fabio.local (1799)] INFO : Starting Agent shutdown
+[05/04/15 18:02:20 +0200 mcb-fabio.local (1830)] INFO : Starting the New Relic agent in "production" environment.
+[05/04/15 18:02:20 +0200 mcb-fabio.local (1830)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/04/15 18:02:20 +0200 mcb-fabio.local (1830)] WARN : No configuration file found. Working directory = /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak
+[05/04/15 18:02:20 +0200 mcb-fabio.local (1830)] WARN : Looked in these locations (based on defaults): /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/.newrelic/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/newrelic.yml
+[05/04/15 18:02:20 +0200 mcb-fabio.local (1830)] INFO : Environment: production
+[05/04/15 18:02:20 +0200 mcb-fabio.local (1830)] INFO : Dispatcher: mongrel
+[05/04/15 18:02:20 +0200 mcb-fabio.local (1830)] INFO : Application: production
+[05/04/15 18:02:20 +0200 mcb-fabio.local (1830)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'.
+[05/04/15 18:02:20 +0200 mcb-fabio.local (1830)] INFO : Installing ActiveRecord 4 instrumentation
+[05/04/15 18:02:20 +0200 mcb-fabio.local (1830)] INFO : Installing Dalli Memcache instrumentation
+[05/04/15 18:02:20 +0200 mcb-fabio.local (1830)] INFO : Installing Net instrumentation
+[05/04/15 18:02:20 +0200 mcb-fabio.local (1830)] INFO : Installing deferred Rack instrumentation
+[05/04/15 18:02:20 +0200 mcb-fabio.local (1830)] INFO : Installing Rack::Builder middleware instrumentation
+[05/04/15 18:02:20 +0200 mcb-fabio.local (1830)] INFO : Installing Rails 3+ middleware instrumentation
+[05/04/15 18:02:20 +0200 mcb-fabio.local (1830)] INFO : Installing Resque instrumentation
+[05/04/15 18:02:20 +0200 mcb-fabio.local (1830)] INFO : Installing Rails 4 Controller instrumentation
+[05/04/15 18:02:20 +0200 mcb-fabio.local (1830)] INFO : Installing Rails 4 view instrumentation
+[05/04/15 18:02:20 +0200 mcb-fabio.local (1830)] INFO : Installing Rails 4 Error instrumentation
+[05/04/15 18:02:20 +0200 mcb-fabio.local (1830)] INFO : Finished instrumentation
+[05/04/15 18:02:21 +0200 mcb-fabio.local (1830)] INFO : Doing deferred dependency-detection before Rack startup
+[05/04/15 18:02:28 +0200 mcb-fabio.local (1830)] ERROR : Invalid license key, please contact support@newrelic.com
+[05/04/15 18:02:28 +0200 mcb-fabio.local (1830)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[05/04/15 18:03:11 +0200 mcb-fabio.local (1830)] INFO : Starting Agent shutdown
+[05/04/15 18:03:36 +0200 mcb-fabio.local (1852)] INFO : Starting the New Relic agent in "production" environment.
+[05/04/15 18:03:36 +0200 mcb-fabio.local (1852)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/04/15 18:03:36 +0200 mcb-fabio.local (1852)] WARN : No configuration file found. Working directory = /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak
+[05/04/15 18:03:36 +0200 mcb-fabio.local (1852)] WARN : Looked in these locations (based on defaults): /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/.newrelic/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/newrelic.yml
+[05/04/15 18:03:36 +0200 mcb-fabio.local (1852)] INFO : Environment: production
+[05/04/15 18:03:36 +0200 mcb-fabio.local (1852)] INFO : Dispatcher: mongrel
+[05/04/15 18:03:36 +0200 mcb-fabio.local (1852)] INFO : Application: production
+[05/04/15 18:03:36 +0200 mcb-fabio.local (1852)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'.
+[05/04/15 18:03:36 +0200 mcb-fabio.local (1852)] INFO : Installing ActiveRecord 4 instrumentation
+[05/04/15 18:03:36 +0200 mcb-fabio.local (1852)] INFO : Installing Dalli Memcache instrumentation
+[05/04/15 18:03:36 +0200 mcb-fabio.local (1852)] INFO : Installing Net instrumentation
+[05/04/15 18:03:36 +0200 mcb-fabio.local (1852)] INFO : Installing deferred Rack instrumentation
+[05/04/15 18:03:36 +0200 mcb-fabio.local (1852)] INFO : Installing Rack::Builder middleware instrumentation
+[05/04/15 18:03:36 +0200 mcb-fabio.local (1852)] INFO : Installing Rails 3+ middleware instrumentation
+[05/04/15 18:03:36 +0200 mcb-fabio.local (1852)] INFO : Installing Resque instrumentation
+[05/04/15 18:03:36 +0200 mcb-fabio.local (1852)] INFO : Installing Rails 4 Controller instrumentation
+[05/04/15 18:03:36 +0200 mcb-fabio.local (1852)] INFO : Installing Rails 4 view instrumentation
+[05/04/15 18:03:36 +0200 mcb-fabio.local (1852)] INFO : Installing Rails 4 Error instrumentation
+[05/04/15 18:03:36 +0200 mcb-fabio.local (1852)] INFO : Finished instrumentation
+[05/04/15 18:03:37 +0200 mcb-fabio.local (1852)] INFO : Doing deferred dependency-detection before Rack startup
+[05/04/15 18:03:41 +0200 mcb-fabio.local (1852)] ERROR : Invalid license key, please contact support@newrelic.com
+[05/04/15 18:03:41 +0200 mcb-fabio.local (1852)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[05/04/15 18:04:03 +0200 mcb-fabio.local (1852)] INFO : Starting Agent shutdown
+[05/04/15 18:04:17 +0200 mcb-fabio.local (1867)] INFO : Starting the New Relic agent in "development" environment.
+[05/04/15 18:04:17 +0200 mcb-fabio.local (1867)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[05/04/15 18:04:17 +0200 mcb-fabio.local (1867)] WARN : No configuration file found. Working directory = /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak
+[05/04/15 18:04:17 +0200 mcb-fabio.local (1867)] WARN : Looked in these locations (based on defaults): /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/.newrelic/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/newrelic.yml
+[05/04/15 18:04:17 +0200 mcb-fabio.local (1867)] INFO : Environment: development
+[05/04/15 18:04:17 +0200 mcb-fabio.local (1867)] INFO : Dispatcher: mongrel
+[05/04/15 18:04:17 +0200 mcb-fabio.local (1867)] INFO : Application: development
+[05/04/15 18:04:17 +0200 mcb-fabio.local (1867)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[05/04/15 18:04:17 +0200 mcb-fabio.local (1867)] INFO : Installing ActiveRecord 4 instrumentation
+[05/04/15 18:04:17 +0200 mcb-fabio.local (1867)] INFO : Installing Dalli Memcache instrumentation
+[05/04/15 18:04:17 +0200 mcb-fabio.local (1867)] INFO : Installing Net instrumentation
+[05/04/15 18:04:18 +0200 mcb-fabio.local (1867)] INFO : Installing deferred Rack instrumentation
+[05/04/15 18:04:18 +0200 mcb-fabio.local (1867)] INFO : Installing Rack::Builder middleware instrumentation
+[05/04/15 18:04:18 +0200 mcb-fabio.local (1867)] INFO : Installing Rails 3+ middleware instrumentation
+[05/04/15 18:04:18 +0200 mcb-fabio.local (1867)] INFO : Installing Resque instrumentation
+[05/04/15 18:04:18 +0200 mcb-fabio.local (1867)] INFO : Installing Rails 4 Controller instrumentation
+[05/04/15 18:04:18 +0200 mcb-fabio.local (1867)] INFO : Installing Rails 4 view instrumentation
+[05/04/15 18:04:18 +0200 mcb-fabio.local (1867)] INFO : Installing Rails 4 Error instrumentation
+[05/04/15 18:04:18 +0200 mcb-fabio.local (1867)] INFO : Finished instrumentation
+[05/04/15 18:04:19 +0200 mcb-fabio.local (1867)] INFO : Doing deferred dependency-detection before Rack startup
+[05/04/15 18:04:23 +0200 mcb-fabio.local (1867)] ERROR : Invalid license key, please contact support@newrelic.com
+[05/04/15 18:04:23 +0200 mcb-fabio.local (1867)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[05/04/15 18:04:31 +0200 mcb-fabio.local (1867)] INFO : Starting Agent shutdown
+[05/04/15 18:04:37 +0200 mcb-fabio.local (1877)] INFO : Starting the New Relic agent in "production" environment.
+[05/04/15 18:04:37 +0200 mcb-fabio.local (1877)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/04/15 18:04:37 +0200 mcb-fabio.local (1877)] WARN : No configuration file found. Working directory = /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak
+[05/04/15 18:04:37 +0200 mcb-fabio.local (1877)] WARN : Looked in these locations (based on defaults): /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/.newrelic/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/newrelic.yml
+[05/04/15 18:04:37 +0200 mcb-fabio.local (1877)] INFO : Environment: production
+[05/04/15 18:04:37 +0200 mcb-fabio.local (1877)] INFO : Dispatcher: mongrel
+[05/04/15 18:04:37 +0200 mcb-fabio.local (1877)] INFO : Application: production
+[05/04/15 18:04:37 +0200 mcb-fabio.local (1877)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'.
+[05/04/15 18:04:37 +0200 mcb-fabio.local (1877)] INFO : Installing ActiveRecord 4 instrumentation
+[05/04/15 18:04:37 +0200 mcb-fabio.local (1877)] INFO : Installing Dalli Memcache instrumentation
+[05/04/15 18:04:37 +0200 mcb-fabio.local (1877)] INFO : Installing Net instrumentation
+[05/04/15 18:04:37 +0200 mcb-fabio.local (1877)] INFO : Installing deferred Rack instrumentation
+[05/04/15 18:04:37 +0200 mcb-fabio.local (1877)] INFO : Installing Rack::Builder middleware instrumentation
+[05/04/15 18:04:37 +0200 mcb-fabio.local (1877)] INFO : Installing Rails 3+ middleware instrumentation
+[05/04/15 18:04:37 +0200 mcb-fabio.local (1877)] INFO : Installing Resque instrumentation
+[05/04/15 18:04:37 +0200 mcb-fabio.local (1877)] INFO : Installing Rails 4 Controller instrumentation
+[05/04/15 18:04:37 +0200 mcb-fabio.local (1877)] INFO : Installing Rails 4 view instrumentation
+[05/04/15 18:04:37 +0200 mcb-fabio.local (1877)] INFO : Installing Rails 4 Error instrumentation
+[05/04/15 18:04:37 +0200 mcb-fabio.local (1877)] INFO : Finished instrumentation
+[05/04/15 18:04:39 +0200 mcb-fabio.local (1877)] INFO : Doing deferred dependency-detection before Rack startup
+[05/04/15 18:04:47 +0200 mcb-fabio.local (1877)] ERROR : Invalid license key, please contact support@newrelic.com
+[05/04/15 18:04:47 +0200 mcb-fabio.local (1877)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[05/04/15 18:06:02 +0200 mcb-fabio.local (1877)] INFO : Starting Agent shutdown
+[05/04/15 18:07:41 +0200 mcb-fabio.local (645)] INFO : Starting the New Relic agent in "production" environment.
+[05/04/15 18:07:41 +0200 mcb-fabio.local (645)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/04/15 18:07:41 +0200 mcb-fabio.local (645)] WARN : No configuration file found. Working directory = /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak
+[05/04/15 18:07:41 +0200 mcb-fabio.local (645)] WARN : Looked in these locations (based on defaults): /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/.newrelic/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/newrelic.yml
+[05/04/15 18:07:41 +0200 mcb-fabio.local (645)] INFO : Environment: production
+[05/04/15 18:07:41 +0200 mcb-fabio.local (645)] INFO : Dispatcher: mongrel
+[05/04/15 18:07:41 +0200 mcb-fabio.local (645)] INFO : Application: production
+[05/04/15 18:07:41 +0200 mcb-fabio.local (645)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'.
+[05/04/15 18:07:41 +0200 mcb-fabio.local (645)] INFO : Installing ActiveRecord 4 instrumentation
+[05/04/15 18:07:41 +0200 mcb-fabio.local (645)] INFO : Installing Dalli Memcache instrumentation
+[05/04/15 18:07:41 +0200 mcb-fabio.local (645)] INFO : Installing Net instrumentation
+[05/04/15 18:07:41 +0200 mcb-fabio.local (645)] INFO : Installing deferred Rack instrumentation
+[05/04/15 18:07:41 +0200 mcb-fabio.local (645)] INFO : Installing Rack::Builder middleware instrumentation
+[05/04/15 18:07:41 +0200 mcb-fabio.local (645)] INFO : Installing Rails 3+ middleware instrumentation
+[05/04/15 18:07:41 +0200 mcb-fabio.local (645)] INFO : Installing Resque instrumentation
+[05/04/15 18:07:41 +0200 mcb-fabio.local (645)] INFO : Installing Rails 4 Controller instrumentation
+[05/04/15 18:07:41 +0200 mcb-fabio.local (645)] INFO : Installing Rails 4 view instrumentation
+[05/04/15 18:07:41 +0200 mcb-fabio.local (645)] INFO : Installing Rails 4 Error instrumentation
+[05/04/15 18:07:41 +0200 mcb-fabio.local (645)] INFO : Finished instrumentation
+[05/04/15 18:07:44 +0200 mcb-fabio.local (645)] INFO : Doing deferred dependency-detection before Rack startup
+[05/04/15 18:08:02 +0200 mcb-fabio.local (645)] ERROR : Invalid license key, please contact support@newrelic.com
+[05/04/15 18:08:02 +0200 mcb-fabio.local (645)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[05/04/15 18:11:39 +0200 mcb-fabio.local (645)] INFO : Starting Agent shutdown
+[05/04/15 18:11:46 +0200 mcb-fabio.local (741)] INFO : Starting the New Relic agent in "production" environment.
+[05/04/15 18:11:46 +0200 mcb-fabio.local (741)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/04/15 18:11:46 +0200 mcb-fabio.local (741)] WARN : No configuration file found. Working directory = /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak
+[05/04/15 18:11:46 +0200 mcb-fabio.local (741)] WARN : Looked in these locations (based on defaults): /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/.newrelic/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/newrelic.yml
+[05/04/15 18:11:46 +0200 mcb-fabio.local (741)] INFO : Environment: production
+[05/04/15 18:11:46 +0200 mcb-fabio.local (741)] INFO : Dispatcher: mongrel
+[05/04/15 18:11:46 +0200 mcb-fabio.local (741)] INFO : Application: production
+[05/04/15 18:11:46 +0200 mcb-fabio.local (741)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'.
+[05/04/15 18:11:46 +0200 mcb-fabio.local (741)] INFO : Installing ActiveRecord 4 instrumentation
+[05/04/15 18:11:46 +0200 mcb-fabio.local (741)] INFO : Installing Dalli Memcache instrumentation
+[05/04/15 18:11:46 +0200 mcb-fabio.local (741)] INFO : Installing Net instrumentation
+[05/04/15 18:11:46 +0200 mcb-fabio.local (741)] INFO : Installing deferred Rack instrumentation
+[05/04/15 18:11:46 +0200 mcb-fabio.local (741)] INFO : Installing Rack::Builder middleware instrumentation
+[05/04/15 18:11:46 +0200 mcb-fabio.local (741)] INFO : Installing Rails 3+ middleware instrumentation
+[05/04/15 18:11:46 +0200 mcb-fabio.local (741)] INFO : Installing Resque instrumentation
+[05/04/15 18:11:46 +0200 mcb-fabio.local (741)] INFO : Installing Rails 4 Controller instrumentation
+[05/04/15 18:11:46 +0200 mcb-fabio.local (741)] INFO : Installing Rails 4 view instrumentation
+[05/04/15 18:11:46 +0200 mcb-fabio.local (741)] INFO : Installing Rails 4 Error instrumentation
+[05/04/15 18:11:46 +0200 mcb-fabio.local (741)] INFO : Finished instrumentation
+[05/04/15 18:11:48 +0200 mcb-fabio.local (741)] INFO : Doing deferred dependency-detection before Rack startup
+[05/04/15 18:12:00 +0200 mcb-fabio.local (741)] ERROR : Invalid license key, please contact support@newrelic.com
+[05/04/15 18:12:00 +0200 mcb-fabio.local (741)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[05/04/15 18:13:52 +0200 mcb-fabio.local (741)] INFO : Starting Agent shutdown
+[05/04/15 18:15:17 +0200 mcb-fabio.local (795)] INFO : Starting the New Relic agent in "production" environment.
+[05/04/15 18:15:17 +0200 mcb-fabio.local (795)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/04/15 18:15:17 +0200 mcb-fabio.local (795)] WARN : No configuration file found. Working directory = /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak
+[05/04/15 18:15:17 +0200 mcb-fabio.local (795)] WARN : Looked in these locations (based on defaults): /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/.newrelic/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/newrelic.yml
+[05/04/15 18:15:17 +0200 mcb-fabio.local (795)] INFO : Environment: production
+[05/04/15 18:15:17 +0200 mcb-fabio.local (795)] INFO : Dispatcher: mongrel
+[05/04/15 18:15:17 +0200 mcb-fabio.local (795)] INFO : Application: production
+[05/04/15 18:15:17 +0200 mcb-fabio.local (795)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'.
+[05/04/15 18:15:17 +0200 mcb-fabio.local (795)] INFO : Installing ActiveRecord 4 instrumentation
+[05/04/15 18:15:17 +0200 mcb-fabio.local (795)] INFO : Installing Dalli Memcache instrumentation
+[05/04/15 18:15:17 +0200 mcb-fabio.local (795)] INFO : Installing Net instrumentation
+[05/04/15 18:15:17 +0200 mcb-fabio.local (795)] INFO : Installing deferred Rack instrumentation
+[05/04/15 18:15:17 +0200 mcb-fabio.local (795)] INFO : Installing Rack::Builder middleware instrumentation
+[05/04/15 18:15:17 +0200 mcb-fabio.local (795)] INFO : Installing Rails 3+ middleware instrumentation
+[05/04/15 18:15:17 +0200 mcb-fabio.local (795)] INFO : Installing Resque instrumentation
+[05/04/15 18:15:17 +0200 mcb-fabio.local (795)] INFO : Installing Rails 4 Controller instrumentation
+[05/04/15 18:15:17 +0200 mcb-fabio.local (795)] INFO : Installing Rails 4 view instrumentation
+[05/04/15 18:15:17 +0200 mcb-fabio.local (795)] INFO : Installing Rails 4 Error instrumentation
+[05/04/15 18:15:17 +0200 mcb-fabio.local (795)] INFO : Finished instrumentation
+[05/04/15 18:15:18 +0200 mcb-fabio.local (795)] INFO : Doing deferred dependency-detection before Rack startup
+[05/04/15 18:15:24 +0200 mcb-fabio.local (795)] ERROR : Invalid license key, please contact support@newrelic.com
+[05/04/15 18:15:24 +0200 mcb-fabio.local (795)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[05/04/15 18:19:05 +0200 mcb-fabio.local (795)] INFO : Starting Agent shutdown
+[05/04/15 18:19:11 +0200 mcb-fabio.local (862)] INFO : Starting the New Relic agent in "production" environment.
+[05/04/15 18:19:11 +0200 mcb-fabio.local (862)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/04/15 18:19:11 +0200 mcb-fabio.local (862)] WARN : No configuration file found. Working directory = /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak
+[05/04/15 18:19:11 +0200 mcb-fabio.local (862)] WARN : Looked in these locations (based on defaults): /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/.newrelic/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/newrelic.yml
+[05/04/15 18:19:11 +0200 mcb-fabio.local (862)] INFO : Environment: production
+[05/04/15 18:19:11 +0200 mcb-fabio.local (862)] INFO : Dispatcher: mongrel
+[05/04/15 18:19:11 +0200 mcb-fabio.local (862)] INFO : Application: production
+[05/04/15 18:19:11 +0200 mcb-fabio.local (862)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'.
+[05/04/15 18:19:11 +0200 mcb-fabio.local (862)] INFO : Installing ActiveRecord 4 instrumentation
+[05/04/15 18:19:11 +0200 mcb-fabio.local (862)] INFO : Installing Dalli Memcache instrumentation
+[05/04/15 18:19:11 +0200 mcb-fabio.local (862)] INFO : Installing Net instrumentation
+[05/04/15 18:19:11 +0200 mcb-fabio.local (862)] INFO : Installing deferred Rack instrumentation
+[05/04/15 18:19:11 +0200 mcb-fabio.local (862)] INFO : Installing Rack::Builder middleware instrumentation
+[05/04/15 18:19:11 +0200 mcb-fabio.local (862)] INFO : Installing Rails 3+ middleware instrumentation
+[05/04/15 18:19:11 +0200 mcb-fabio.local (862)] INFO : Installing Resque instrumentation
+[05/04/15 18:19:11 +0200 mcb-fabio.local (862)] INFO : Installing Rails 4 Controller instrumentation
+[05/04/15 18:19:11 +0200 mcb-fabio.local (862)] INFO : Installing Rails 4 view instrumentation
+[05/04/15 18:19:11 +0200 mcb-fabio.local (862)] INFO : Installing Rails 4 Error instrumentation
+[05/04/15 18:19:11 +0200 mcb-fabio.local (862)] INFO : Finished instrumentation
+[05/04/15 18:19:12 +0200 mcb-fabio.local (862)] INFO : Doing deferred dependency-detection before Rack startup
+[05/04/15 18:19:27 +0200 mcb-fabio.local (862)] ERROR : Invalid license key, please contact support@newrelic.com
+[05/04/15 18:19:27 +0200 mcb-fabio.local (862)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[05/04/15 18:21:01 +0200 mcb-fabio.local (862)] INFO : Starting Agent shutdown
+[05/04/15 18:21:14 +0200 mcb-fabio.local (896)] INFO : Starting the New Relic agent in "production" environment.
+[05/04/15 18:21:14 +0200 mcb-fabio.local (896)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/04/15 18:21:14 +0200 mcb-fabio.local (896)] WARN : No configuration file found. Working directory = /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak
+[05/04/15 18:21:14 +0200 mcb-fabio.local (896)] WARN : Looked in these locations (based on defaults): /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/config/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/Sites/thingspeak/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/.newrelic/newrelic.yml, /Volumes/Macintosh HD (OLD)/Users/fabiogbui/newrelic.yml
+[05/04/15 18:21:14 +0200 mcb-fabio.local (896)] INFO : Environment: production
+[05/04/15 18:21:14 +0200 mcb-fabio.local (896)] INFO : Dispatcher: mongrel
+[05/04/15 18:21:14 +0200 mcb-fabio.local (896)] INFO : Application: production
+[05/04/15 18:21:14 +0200 mcb-fabio.local (896)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'.
+[05/04/15 18:21:14 +0200 mcb-fabio.local (896)] INFO : Installing ActiveRecord 4 instrumentation
+[05/04/15 18:21:14 +0200 mcb-fabio.local (896)] INFO : Installing Dalli Memcache instrumentation
+[05/04/15 18:21:14 +0200 mcb-fabio.local (896)] INFO : Installing Net instrumentation
+[05/04/15 18:21:14 +0200 mcb-fabio.local (896)] INFO : Installing deferred Rack instrumentation
+[05/04/15 18:21:14 +0200 mcb-fabio.local (896)] INFO : Installing Rack::Builder middleware instrumentation
+[05/04/15 18:21:14 +0200 mcb-fabio.local (896)] INFO : Installing Rails 3+ middleware instrumentation
+[05/04/15 18:21:14 +0200 mcb-fabio.local (896)] INFO : Installing Resque instrumentation
+[05/04/15 18:21:14 +0200 mcb-fabio.local (896)] INFO : Installing Rails 4 Controller instrumentation
+[05/04/15 18:21:14 +0200 mcb-fabio.local (896)] INFO : Installing Rails 4 view instrumentation
+[05/04/15 18:21:14 +0200 mcb-fabio.local (896)] INFO : Installing Rails 4 Error instrumentation
+[05/04/15 18:21:14 +0200 mcb-fabio.local (896)] INFO : Finished instrumentation
+[05/04/15 18:21:15 +0200 mcb-fabio.local (896)] INFO : Doing deferred dependency-detection before Rack startup
+[05/04/15 18:21:20 +0200 mcb-fabio.local (896)] ERROR : Invalid license key, please contact support@newrelic.com
+[05/04/15 18:21:20 +0200 mcb-fabio.local (896)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[05/04/15 18:23:03 +0200 mcb-fabio.local (896)] INFO : Starting Agent shutdown

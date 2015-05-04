@@ -1431,3 +1431,72 @@
 [05/03/15 23:28:02 +0200 mcb-fabio.local (2580)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
 [05/03/15 23:28:23 +0200 mcb-fabio.local (2580)] INFO : Starting Agent shutdown
 >>>>>>> f6ea23ff8ea7b0f4524a769b43bc57f460e8fbde
+[05/04/15 13:20:26 +0000 core (9724)] INFO : Starting the New Relic agent in "production" environment.
+[05/04/15 13:20:26 +0000 core (9724)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/04/15 13:20:26 +0000 core (9724)] WARN : No configuration file found. Working directory = /var/www/thingspeak
+[05/04/15 13:20:26 +0000 core (9724)] WARN : Looked in these locations (based on defaults): /var/www/thingspeak/config/newrelic.yml, /var/www/thingspeak/newrelic.yml, /var/www/thingspeak/config/newrelic.yml, /var/www/thingspeak/newrelic.yml, /root/.newrelic/newrelic.yml, /root/newrelic.yml
+[05/04/15 13:20:26 +0000 core (9724)] INFO : Environment: production
+[05/04/15 13:20:26 +0000 core (9724)] INFO : Dispatcher: mongrel
+[05/04/15 13:20:26 +0000 core (9724)] INFO : Application: production
+[05/04/15 13:20:26 +0000 core (9724)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'.
+[05/04/15 13:20:26 +0000 core (9724)] INFO : Installing deferred Rack instrumentation
+[05/04/15 13:20:26 +0000 core (9724)] INFO : Installing Rack::Builder middleware instrumentation
+[05/04/15 13:20:26 +0000 core (9724)] INFO : Installing ActiveRecord 4 instrumentation
+[05/04/15 13:20:26 +0000 core (9724)] INFO : Installing Net instrumentation
+[05/04/15 13:20:26 +0000 core (9724)] INFO : Installing Resque instrumentation
+[05/04/15 13:20:26 +0000 core (9724)] INFO : Installing Dalli Memcache instrumentation
+[05/04/15 13:20:26 +0000 core (9724)] INFO : Installing Rails 3+ middleware instrumentation
+[05/04/15 13:20:26 +0000 core (9724)] INFO : Installing Rails 4 Controller instrumentation
+[05/04/15 13:20:26 +0000 core (9724)] INFO : Installing Rails 4 Error instrumentation
+[05/04/15 13:20:26 +0000 core (9724)] INFO : Installing Rails 4 view instrumentation
+[05/04/15 13:20:26 +0000 core (9724)] INFO : Finished instrumentation
+[05/04/15 13:20:27 +0000 core (9724)] INFO : Doing deferred dependency-detection before Rack startup
+[05/04/15 13:20:36 +0000 core (9724)] ERROR : Invalid license key, please contact support@newrelic.com
+[05/04/15 13:20:36 +0000 core (9724)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[05/04/15 13:31:02 +0000 core (9724)] INFO : Starting Agent shutdown
+[05/04/15 13:35:00 +0000 core (10090)] INFO : Starting the New Relic agent in "development" environment.
+[05/04/15 13:35:00 +0000 core (10090)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[05/04/15 13:35:00 +0000 core (10090)] WARN : No configuration file found. Working directory = /var/www/thingspeak
+[05/04/15 13:35:00 +0000 core (10090)] WARN : Looked in these locations (based on defaults): /var/www/thingspeak/config/newrelic.yml, /var/www/thingspeak/newrelic.yml, /var/www/thingspeak/config/newrelic.yml, /var/www/thingspeak/newrelic.yml, /root/.newrelic/newrelic.yml, /root/newrelic.yml
+[05/04/15 13:35:00 +0000 core (10090)] INFO : Environment: development
+[05/04/15 13:35:00 +0000 core (10090)] INFO : Dispatcher: mongrel
+[05/04/15 13:35:00 +0000 core (10090)] INFO : Application: development
+[05/04/15 13:35:00 +0000 core (10090)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[05/04/15 13:35:00 +0000 core (10090)] INFO : Installing deferred Rack instrumentation
+[05/04/15 13:35:00 +0000 core (10090)] INFO : Installing Rack::Builder middleware instrumentation
+[05/04/15 13:35:00 +0000 core (10090)] INFO : Installing ActiveRecord 4 instrumentation
+[05/04/15 13:35:00 +0000 core (10090)] INFO : Installing Net instrumentation
+[05/04/15 13:35:00 +0000 core (10090)] INFO : Installing Resque instrumentation
+[05/04/15 13:35:00 +0000 core (10090)] INFO : Installing Dalli Memcache instrumentation
+[05/04/15 13:35:00 +0000 core (10090)] INFO : Installing Rails 3+ middleware instrumentation
+[05/04/15 13:35:00 +0000 core (10090)] INFO : Installing Rails 4 Controller instrumentation
+[05/04/15 13:35:00 +0000 core (10090)] INFO : Installing Rails 4 Error instrumentation
+[05/04/15 13:35:00 +0000 core (10090)] INFO : Installing Rails 4 view instrumentation
+[05/04/15 13:35:00 +0000 core (10090)] INFO : Finished instrumentation
+[05/04/15 13:35:00 +0000 core (10090)] INFO : Doing deferred dependency-detection before Rack startup
+[05/04/15 13:35:08 +0000 core (10090)] ERROR : Invalid license key, please contact support@newrelic.com
+[05/04/15 13:35:08 +0000 core (10090)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[05/04/15 13:35:58 +0000 core (10090)] INFO : Starting Agent shutdown
+[05/04/15 13:43:12 +0000 core (10768)] INFO : Starting the New Relic agent in "production" environment.
+[05/04/15 13:43:12 +0000 core (10768)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/04/15 13:43:12 +0000 core (10768)] WARN : No configuration file found. Working directory = /var/www/thingspeak
+[05/04/15 13:43:12 +0000 core (10768)] WARN : Looked in these locations (based on defaults): /var/www/thingspeak/config/newrelic.yml, /var/www/thingspeak/newrelic.yml, /var/www/thingspeak/config/newrelic.yml, /var/www/thingspeak/newrelic.yml, /root/.newrelic/newrelic.yml, /root/newrelic.yml
+[05/04/15 13:43:12 +0000 core (10768)] INFO : Environment: production
+[05/04/15 13:43:12 +0000 core (10768)] INFO : Dispatcher: mongrel
+[05/04/15 13:43:12 +0000 core (10768)] INFO : Application: production
+[05/04/15 13:43:12 +0000 core (10768)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'.
+[05/04/15 13:43:12 +0000 core (10768)] INFO : Installing deferred Rack instrumentation
+[05/04/15 13:43:12 +0000 core (10768)] INFO : Installing Rack::Builder middleware instrumentation
+[05/04/15 13:43:12 +0000 core (10768)] INFO : Installing ActiveRecord 4 instrumentation
+[05/04/15 13:43:12 +0000 core (10768)] INFO : Installing Net instrumentation
+[05/04/15 13:43:12 +0000 core (10768)] INFO : Installing Resque instrumentation
+[05/04/15 13:43:12 +0000 core (10768)] INFO : Installing Dalli Memcache instrumentation
+[05/04/15 13:43:12 +0000 core (10768)] INFO : Installing Rails 3+ middleware instrumentation
+[05/04/15 13:43:12 +0000 core (10768)] INFO : Installing Rails 4 Controller instrumentation
+[05/04/15 13:43:12 +0000 core (10768)] INFO : Installing Rails 4 Error instrumentation
+[05/04/15 13:43:12 +0000 core (10768)] INFO : Installing Rails 4 view instrumentation
+[05/04/15 13:43:12 +0000 core (10768)] INFO : Finished instrumentation
+[05/04/15 13:43:13 +0000 core (10768)] INFO : Doing deferred dependency-detection before Rack startup
+[05/04/15 13:43:25 +0000 core (10768)] ERROR : Invalid license key, please contact support@newrelic.com
+[05/04/15 13:43:25 +0000 core (10768)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[05/04/15 13:44:13 +0000 core (10768)] INFO : Starting Agent shutdown

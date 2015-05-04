@@ -2351,3 +2351,163 @@
 [05/04/15 18:21:20 +0200 mcb-fabio.local (896)] ERROR : Invalid license key, please contact support@newrelic.com
 [05/04/15 18:21:20 +0200 mcb-fabio.local (896)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
 [05/04/15 18:23:03 +0200 mcb-fabio.local (896)] INFO : Starting Agent shutdown
+[05/04/15 16:30:10 +0000 Nostradomus (1649)] INFO : Starting the New Relic agent in "production" environment.
+[05/04/15 16:30:10 +0000 Nostradomus (1649)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/04/15 16:30:10 +0000 Nostradomus (1649)] WARN : No configuration file found. Working directory = /var/www/thingspeak
+[05/04/15 16:30:10 +0000 Nostradomus (1649)] WARN : Looked in these locations (based on defaults): /var/www/thingspeak/config/newrelic.yml, /var/www/thingspeak/newrelic.yml, /var/www/thingspeak/config/newrelic.yml, /var/www/thingspeak/newrelic.yml, /home/fabiobui/.newrelic/newrelic.yml, /home/fabiobui/newrelic.yml
+[05/04/15 16:30:10 +0000 Nostradomus (1649)] INFO : Environment: production
+[05/04/15 16:30:10 +0000 Nostradomus (1649)] INFO : Dispatcher: mongrel
+[05/04/15 16:30:10 +0000 Nostradomus (1649)] INFO : Application: production
+[05/04/15 16:30:10 +0000 Nostradomus (1649)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'.
+[05/04/15 16:30:11 +0000 Nostradomus (1649)] INFO : Installing Net instrumentation
+[05/04/15 16:30:11 +0000 Nostradomus (1649)] INFO : Installing Dalli Memcache instrumentation
+[05/04/15 16:30:11 +0000 Nostradomus (1649)] INFO : Installing Resque instrumentation
+[05/04/15 16:30:11 +0000 Nostradomus (1649)] INFO : Installing ActiveRecord 4 instrumentation
+[05/04/15 16:30:11 +0000 Nostradomus (1649)] INFO : Installing Rails 3+ middleware instrumentation
+[05/04/15 16:30:11 +0000 Nostradomus (1649)] INFO : Installing deferred Rack instrumentation
+[05/04/15 16:30:11 +0000 Nostradomus (1649)] INFO : Installing Rack::Builder middleware instrumentation
+[05/04/15 16:30:11 +0000 Nostradomus (1649)] INFO : Installing Rails 4 Error instrumentation
+[05/04/15 16:30:11 +0000 Nostradomus (1649)] INFO : Installing Rails 4 Controller instrumentation
+[05/04/15 16:30:11 +0000 Nostradomus (1649)] INFO : Installing Rails 4 view instrumentation
+[05/04/15 16:30:11 +0000 Nostradomus (1649)] INFO : Finished instrumentation
+[05/04/15 16:30:15 +0000 Nostradomus (1649)] INFO : Doing deferred dependency-detection before Rack startup
+[05/04/15 16:30:21 +0000 Nostradomus (1649)] ERROR : Invalid license key, please contact support@newrelic.com
+[05/04/15 16:30:21 +0000 Nostradomus (1649)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[05/04/15 16:35:16 +0000 Nostradomus (1649)] INFO : Starting Agent shutdown
+[05/04/15 16:35:51 +0000 Nostradomus (1746)] INFO : Starting the New Relic agent in "production" environment.
+[05/04/15 16:35:51 +0000 Nostradomus (1746)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/04/15 16:35:51 +0000 Nostradomus (1746)] WARN : No configuration file found. Working directory = /var/www/thingspeak
+[05/04/15 16:35:51 +0000 Nostradomus (1746)] WARN : Looked in these locations (based on defaults): /var/www/thingspeak/config/newrelic.yml, /var/www/thingspeak/newrelic.yml, /var/www/thingspeak/config/newrelic.yml, /var/www/thingspeak/newrelic.yml, /home/fabiobui/.newrelic/newrelic.yml, /home/fabiobui/newrelic.yml
+[05/04/15 16:35:51 +0000 Nostradomus (1746)] INFO : Environment: production
+[05/04/15 16:35:51 +0000 Nostradomus (1746)] INFO : Dispatcher: mongrel
+[05/04/15 16:35:51 +0000 Nostradomus (1746)] INFO : Application: production
+[05/04/15 16:35:51 +0000 Nostradomus (1746)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'.
+[05/04/15 16:35:52 +0000 Nostradomus (1746)] INFO : Installing Net instrumentation
+[05/04/15 16:35:52 +0000 Nostradomus (1746)] INFO : Installing Dalli Memcache instrumentation
+[05/04/15 16:35:52 +0000 Nostradomus (1746)] INFO : Installing Resque instrumentation
+[05/04/15 16:35:52 +0000 Nostradomus (1746)] INFO : Installing ActiveRecord 4 instrumentation
+[05/04/15 16:35:52 +0000 Nostradomus (1746)] INFO : Installing Rails 3+ middleware instrumentation
+[05/04/15 16:35:52 +0000 Nostradomus (1746)] INFO : Installing deferred Rack instrumentation
+[05/04/15 16:35:52 +0000 Nostradomus (1746)] INFO : Installing Rack::Builder middleware instrumentation
+[05/04/15 16:35:52 +0000 Nostradomus (1746)] INFO : Installing Rails 4 Error instrumentation
+[05/04/15 16:35:52 +0000 Nostradomus (1746)] INFO : Installing Rails 4 Controller instrumentation
+[05/04/15 16:35:52 +0000 Nostradomus (1746)] INFO : Installing Rails 4 view instrumentation
+[05/04/15 16:35:52 +0000 Nostradomus (1746)] INFO : Finished instrumentation
+[05/04/15 16:35:56 +0000 Nostradomus (1746)] INFO : Doing deferred dependency-detection before Rack startup
+[05/04/15 16:36:07 +0000 Nostradomus (1746)] ERROR : Invalid license key, please contact support@newrelic.com
+[05/04/15 16:36:07 +0000 Nostradomus (1746)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[05/04/15 16:36:26 +0000 Nostradomus (1746)] INFO : Starting Agent shutdown
+[05/04/15 16:36:45 +0000 Nostradomus (1765)] INFO : Starting the New Relic agent in "development" environment.
+[05/04/15 16:36:45 +0000 Nostradomus (1765)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[05/04/15 16:36:45 +0000 Nostradomus (1765)] WARN : No configuration file found. Working directory = /var/www/thingspeak
+[05/04/15 16:36:45 +0000 Nostradomus (1765)] WARN : Looked in these locations (based on defaults): /var/www/thingspeak/config/newrelic.yml, /var/www/thingspeak/newrelic.yml, /var/www/thingspeak/config/newrelic.yml, /var/www/thingspeak/newrelic.yml, /home/fabiobui/.newrelic/newrelic.yml, /home/fabiobui/newrelic.yml
+[05/04/15 16:36:45 +0000 Nostradomus (1765)] INFO : Environment: development
+[05/04/15 16:36:45 +0000 Nostradomus (1765)] INFO : Dispatcher: mongrel
+[05/04/15 16:36:45 +0000 Nostradomus (1765)] INFO : Application: development
+[05/04/15 16:36:45 +0000 Nostradomus (1765)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[05/04/15 16:36:45 +0000 Nostradomus (1765)] INFO : Installing Net instrumentation
+[05/04/15 16:36:45 +0000 Nostradomus (1765)] INFO : Installing Dalli Memcache instrumentation
+[05/04/15 16:36:45 +0000 Nostradomus (1765)] INFO : Installing Resque instrumentation
+[05/04/15 16:36:45 +0000 Nostradomus (1765)] INFO : Installing ActiveRecord 4 instrumentation
+[05/04/15 16:36:45 +0000 Nostradomus (1765)] INFO : Installing Rails 3+ middleware instrumentation
+[05/04/15 16:36:45 +0000 Nostradomus (1765)] INFO : Installing deferred Rack instrumentation
+[05/04/15 16:36:45 +0000 Nostradomus (1765)] INFO : Installing Rack::Builder middleware instrumentation
+[05/04/15 16:36:45 +0000 Nostradomus (1765)] INFO : Installing Rails 4 Error instrumentation
+[05/04/15 16:36:45 +0000 Nostradomus (1765)] INFO : Installing Rails 4 Controller instrumentation
+[05/04/15 16:36:45 +0000 Nostradomus (1765)] INFO : Installing Rails 4 view instrumentation
+[05/04/15 16:36:45 +0000 Nostradomus (1765)] INFO : Finished instrumentation
+[05/04/15 16:36:49 +0000 Nostradomus (1765)] INFO : Doing deferred dependency-detection before Rack startup
+[05/04/15 16:37:03 +0000 Nostradomus (1765)] ERROR : Invalid license key, please contact support@newrelic.com
+[05/04/15 16:37:03 +0000 Nostradomus (1765)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[05/04/15 16:37:55 +0000 Nostradomus (1765)] INFO : Starting Agent shutdown
+[05/04/15 16:39:34 +0000 Nostradomus (1838)] INFO : Starting the New Relic agent in "production" environment.
+[05/04/15 16:39:34 +0000 Nostradomus (1838)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/04/15 16:39:34 +0000 Nostradomus (1838)] WARN : No configuration file found. Working directory = /var/www/thingspeak
+[05/04/15 16:39:34 +0000 Nostradomus (1838)] WARN : Looked in these locations (based on defaults): /var/www/thingspeak/config/newrelic.yml, /var/www/thingspeak/newrelic.yml, /var/www/thingspeak/config/newrelic.yml, /var/www/thingspeak/newrelic.yml, /home/fabiobui/.newrelic/newrelic.yml, /home/fabiobui/newrelic.yml
+[05/04/15 16:39:34 +0000 Nostradomus (1838)] INFO : Environment: production
+[05/04/15 16:39:34 +0000 Nostradomus (1838)] INFO : Dispatcher: mongrel
+[05/04/15 16:39:34 +0000 Nostradomus (1838)] INFO : Application: production
+[05/04/15 16:39:34 +0000 Nostradomus (1838)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'.
+[05/04/15 16:39:34 +0000 Nostradomus (1838)] INFO : Installing Net instrumentation
+[05/04/15 16:39:34 +0000 Nostradomus (1838)] INFO : Installing Dalli Memcache instrumentation
+[05/04/15 16:39:34 +0000 Nostradomus (1838)] INFO : Installing Resque instrumentation
+[05/04/15 16:39:34 +0000 Nostradomus (1838)] INFO : Installing ActiveRecord 4 instrumentation
+[05/04/15 16:39:34 +0000 Nostradomus (1838)] INFO : Installing Rails 3+ middleware instrumentation
+[05/04/15 16:39:34 +0000 Nostradomus (1838)] INFO : Installing deferred Rack instrumentation
+[05/04/15 16:39:34 +0000 Nostradomus (1838)] INFO : Installing Rack::Builder middleware instrumentation
+[05/04/15 16:39:34 +0000 Nostradomus (1838)] INFO : Installing Rails 4 Error instrumentation
+[05/04/15 16:39:34 +0000 Nostradomus (1838)] INFO : Installing Rails 4 Controller instrumentation
+[05/04/15 16:39:34 +0000 Nostradomus (1838)] INFO : Installing Rails 4 view instrumentation
+[05/04/15 16:39:34 +0000 Nostradomus (1838)] INFO : Finished instrumentation
+[05/04/15 16:39:39 +0000 Nostradomus (1838)] INFO : Doing deferred dependency-detection before Rack startup
+[05/04/15 16:39:42 +0000 Nostradomus (1838)] ERROR : Invalid license key, please contact support@newrelic.com
+[05/04/15 16:39:42 +0000 Nostradomus (1838)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[05/04/15 16:40:16 +0000 Nostradomus (1838)] INFO : Starting Agent shutdown
+[05/04/15 16:41:00 +0000 Nostradomus (1892)] INFO : Starting the New Relic agent in "production" environment.
+[05/04/15 16:41:00 +0000 Nostradomus (1892)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/04/15 16:41:00 +0000 Nostradomus (1892)] WARN : No configuration file found. Working directory = /var/www/thingspeak
+[05/04/15 16:41:00 +0000 Nostradomus (1892)] WARN : Looked in these locations (based on defaults): /var/www/thingspeak/config/newrelic.yml, /var/www/thingspeak/newrelic.yml, /var/www/thingspeak/config/newrelic.yml, /var/www/thingspeak/newrelic.yml, /home/fabiobui/.newrelic/newrelic.yml, /home/fabiobui/newrelic.yml
+[05/04/15 16:41:00 +0000 Nostradomus (1892)] INFO : Environment: production
+[05/04/15 16:41:00 +0000 Nostradomus (1892)] INFO : Dispatcher: mongrel
+[05/04/15 16:41:00 +0000 Nostradomus (1892)] INFO : Application: production
+[05/04/15 16:41:00 +0000 Nostradomus (1892)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'.
+[05/04/15 16:41:00 +0000 Nostradomus (1892)] INFO : Installing Net instrumentation
+[05/04/15 16:41:00 +0000 Nostradomus (1892)] INFO : Installing Dalli Memcache instrumentation
+[05/04/15 16:41:00 +0000 Nostradomus (1892)] INFO : Installing Resque instrumentation
+[05/04/15 16:41:00 +0000 Nostradomus (1892)] INFO : Installing ActiveRecord 4 instrumentation
+[05/04/15 16:41:00 +0000 Nostradomus (1892)] INFO : Installing Rails 3+ middleware instrumentation
+[05/04/15 16:41:00 +0000 Nostradomus (1892)] INFO : Installing deferred Rack instrumentation
+[05/04/15 16:41:00 +0000 Nostradomus (1892)] INFO : Installing Rack::Builder middleware instrumentation
+[05/04/15 16:41:00 +0000 Nostradomus (1892)] INFO : Installing Rails 4 Error instrumentation
+[05/04/15 16:41:00 +0000 Nostradomus (1892)] INFO : Installing Rails 4 Controller instrumentation
+[05/04/15 16:41:00 +0000 Nostradomus (1892)] INFO : Installing Rails 4 view instrumentation
+[05/04/15 16:41:00 +0000 Nostradomus (1892)] INFO : Finished instrumentation
+[05/04/15 16:41:05 +0000 Nostradomus (1892)] INFO : Doing deferred dependency-detection before Rack startup
+[05/04/15 16:41:12 +0000 Nostradomus (1892)] ERROR : Invalid license key, please contact support@newrelic.com
+[05/04/15 16:41:12 +0000 Nostradomus (1892)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[05/04/15 16:41:44 +0000 Nostradomus (1892)] INFO : Starting Agent shutdown
+[05/04/15 16:43:05 +0000 Nostradomus (1930)] INFO : Starting the New Relic agent in "production" environment.
+[05/04/15 16:43:05 +0000 Nostradomus (1930)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/04/15 16:43:05 +0000 Nostradomus (1930)] WARN : No configuration file found. Working directory = /var/www/thingspeak
+[05/04/15 16:43:05 +0000 Nostradomus (1930)] WARN : Looked in these locations (based on defaults): /var/www/thingspeak/config/newrelic.yml, /var/www/thingspeak/newrelic.yml, /var/www/thingspeak/config/newrelic.yml, /var/www/thingspeak/newrelic.yml, /home/fabiobui/.newrelic/newrelic.yml, /home/fabiobui/newrelic.yml
+[05/04/15 16:43:05 +0000 Nostradomus (1930)] INFO : Environment: production
+[05/04/15 16:43:05 +0000 Nostradomus (1930)] INFO : Dispatcher: mongrel
+[05/04/15 16:43:05 +0000 Nostradomus (1930)] INFO : Application: production
+[05/04/15 16:43:05 +0000 Nostradomus (1930)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'.
+[05/04/15 16:43:05 +0000 Nostradomus (1930)] INFO : Installing Net instrumentation
+[05/04/15 16:43:05 +0000 Nostradomus (1930)] INFO : Installing Dalli Memcache instrumentation
+[05/04/15 16:43:05 +0000 Nostradomus (1930)] INFO : Installing Resque instrumentation
+[05/04/15 16:43:05 +0000 Nostradomus (1930)] INFO : Installing ActiveRecord 4 instrumentation
+[05/04/15 16:43:05 +0000 Nostradomus (1930)] INFO : Installing Rails 3+ middleware instrumentation
+[05/04/15 16:43:05 +0000 Nostradomus (1930)] INFO : Installing deferred Rack instrumentation
+[05/04/15 16:43:05 +0000 Nostradomus (1930)] INFO : Installing Rack::Builder middleware instrumentation
+[05/04/15 16:43:05 +0000 Nostradomus (1930)] INFO : Installing Rails 4 Error instrumentation
+[05/04/15 16:43:05 +0000 Nostradomus (1930)] INFO : Installing Rails 4 Controller instrumentation
+[05/04/15 16:43:05 +0000 Nostradomus (1930)] INFO : Installing Rails 4 view instrumentation
+[05/04/15 16:43:05 +0000 Nostradomus (1930)] INFO : Finished instrumentation
+[05/04/15 16:43:10 +0000 Nostradomus (1930)] INFO : Doing deferred dependency-detection before Rack startup
+[05/04/15 16:43:17 +0000 Nostradomus (1930)] ERROR : Invalid license key, please contact support@newrelic.com
+[05/04/15 16:43:17 +0000 Nostradomus (1930)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[05/04/15 16:43:44 +0000 Nostradomus (1930)] INFO : Starting Agent shutdown
+[05/04/15 16:44:02 +0000 Nostradomus (1951)] INFO : Starting the New Relic agent in "production" environment.
+[05/04/15 16:44:02 +0000 Nostradomus (1951)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/04/15 16:44:02 +0000 Nostradomus (1951)] WARN : No configuration file found. Working directory = /var/www/thingspeak
+[05/04/15 16:44:02 +0000 Nostradomus (1951)] WARN : Looked in these locations (based on defaults): /var/www/thingspeak/config/newrelic.yml, /var/www/thingspeak/newrelic.yml, /var/www/thingspeak/config/newrelic.yml, /var/www/thingspeak/newrelic.yml, /home/fabiobui/.newrelic/newrelic.yml, /home/fabiobui/newrelic.yml
+[05/04/15 16:44:02 +0000 Nostradomus (1951)] INFO : Environment: production
+[05/04/15 16:44:02 +0000 Nostradomus (1951)] INFO : Dispatcher: mongrel
+[05/04/15 16:44:02 +0000 Nostradomus (1951)] INFO : Application: production
+[05/04/15 16:44:02 +0000 Nostradomus (1951)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'.
+[05/04/15 16:44:03 +0000 Nostradomus (1951)] INFO : Installing Net instrumentation
+[05/04/15 16:44:03 +0000 Nostradomus (1951)] INFO : Installing Dalli Memcache instrumentation
+[05/04/15 16:44:03 +0000 Nostradomus (1951)] INFO : Installing Resque instrumentation
+[05/04/15 16:44:03 +0000 Nostradomus (1951)] INFO : Installing ActiveRecord 4 instrumentation
+[05/04/15 16:44:03 +0000 Nostradomus (1951)] INFO : Installing Rails 3+ middleware instrumentation
+[05/04/15 16:44:03 +0000 Nostradomus (1951)] INFO : Installing deferred Rack instrumentation
+[05/04/15 16:44:03 +0000 Nostradomus (1951)] INFO : Installing Rack::Builder middleware instrumentation
+[05/04/15 16:44:03 +0000 Nostradomus (1951)] INFO : Installing Rails 4 Error instrumentation
+[05/04/15 16:44:03 +0000 Nostradomus (1951)] INFO : Installing Rails 4 Controller instrumentation
+[05/04/15 16:44:03 +0000 Nostradomus (1951)] INFO : Installing Rails 4 view instrumentation
+[05/04/15 16:44:03 +0000 Nostradomus (1951)] INFO : Finished instrumentation
+[05/04/15 16:44:07 +0000 Nostradomus (1951)] INFO : Doing deferred dependency-detection before Rack startup
+[05/04/15 16:44:15 +0000 Nostradomus (1957)] ERROR : Invalid license key, please contact support@newrelic.com
+[05/04/15 16:44:15 +0000 Nostradomus (1957)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.

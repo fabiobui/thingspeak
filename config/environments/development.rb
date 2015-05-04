@@ -11,7 +11,7 @@ Thingspeak::Application.configure do
 
   config.eager_load = false
 
-#  config.assets.prefix = "/dev-assets"
+  config.assets.prefix = "/dev-assets"
 
   # Show full error reports and disable caching
   config.consider_all_requests_local       = true

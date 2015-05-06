@@ -183,7 +183,7 @@ class ApplicationController < ActionController::Base
       session[:return_to] = nil
     end
 
-    def domain(ssl=true)
+    def domain(ssl=false)
       u = request.url
       begin
         # the number 12 is the position at which to begin searching for '/', so we don't get the intitial '/' from http://

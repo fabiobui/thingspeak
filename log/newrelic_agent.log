@@ -2511,3 +2511,243 @@
 [05/04/15 16:44:07 +0000 Nostradomus (1951)] INFO : Doing deferred dependency-detection before Rack startup
 [05/04/15 16:44:15 +0000 Nostradomus (1957)] ERROR : Invalid license key, please contact support@newrelic.com
 [05/04/15 16:44:15 +0000 Nostradomus (1957)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[05/06/15 11:53:11 +0000 core (18279)] INFO : Starting the New Relic agent in "production" environment.
+[05/06/15 11:53:11 +0000 core (18279)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/06/15 11:53:11 +0000 core (18279)] WARN : No configuration file found. Working directory = /var/www/thingspeak
+[05/06/15 11:53:11 +0000 core (18279)] WARN : Looked in these locations (based on defaults): /var/www/thingspeak/config/newrelic.yml, /var/www/thingspeak/newrelic.yml, /var/www/thingspeak/config/newrelic.yml, /var/www/thingspeak/newrelic.yml, /root/.newrelic/newrelic.yml, /root/newrelic.yml
+[05/06/15 11:53:11 +0000 core (18279)] INFO : Environment: production
+[05/06/15 11:53:11 +0000 core (18279)] INFO : Dispatcher: mongrel
+[05/06/15 11:53:11 +0000 core (18279)] INFO : Application: production
+[05/06/15 11:53:11 +0000 core (18279)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'.
+[05/06/15 11:53:11 +0000 core (18279)] INFO : Installing deferred Rack instrumentation
+[05/06/15 11:53:11 +0000 core (18279)] INFO : Installing Rack::Builder middleware instrumentation
+[05/06/15 11:53:11 +0000 core (18279)] INFO : Installing ActiveRecord 4 instrumentation
+[05/06/15 11:53:11 +0000 core (18279)] INFO : Installing Net instrumentation
+[05/06/15 11:53:11 +0000 core (18279)] INFO : Installing Resque instrumentation
+[05/06/15 11:53:11 +0000 core (18279)] INFO : Installing Dalli Memcache instrumentation
+[05/06/15 11:53:11 +0000 core (18279)] INFO : Installing Rails 3+ middleware instrumentation
+[05/06/15 11:53:11 +0000 core (18279)] INFO : Installing Rails 4 Controller instrumentation
+[05/06/15 11:53:11 +0000 core (18279)] INFO : Installing Rails 4 Error instrumentation
+[05/06/15 11:53:11 +0000 core (18279)] INFO : Installing Rails 4 view instrumentation
+[05/06/15 11:53:11 +0000 core (18279)] INFO : Finished instrumentation
+[05/06/15 11:53:11 +0000 core (18279)] INFO : Doing deferred dependency-detection before Rack startup
+[05/06/15 11:53:29 +0000 core (18279)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[05/06/15 11:53:29 +0000 core (18279)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector.newrelic.com:443: Connection refused - connect(2) for "collector.newrelic.com" port 443
+[05/06/15 11:53:29 +0000 core (18279)] INFO : Will re-attempt in 60 seconds
+[05/06/15 11:54:30 +0000 core (18279)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[05/06/15 11:54:30 +0000 core (18279)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector.newrelic.com:443: Connection refused - connect(2) for "collector.newrelic.com" port 443
+[05/06/15 11:54:30 +0000 core (18279)] INFO : Will re-attempt in 120 seconds
+[05/06/15 11:56:31 +0000 core (18279)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[05/06/15 11:56:31 +0000 core (18279)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector.newrelic.com:443: Connection refused - connect(2) for "collector.newrelic.com" port 443
+[05/06/15 11:56:31 +0000 core (18279)] INFO : Will re-attempt in 180 seconds
+[05/06/15 11:57:22 +0000 core (18279)] INFO : Starting Agent shutdown
+[05/06/15 11:58:06 +0000 core (18578)] INFO : Starting the New Relic agent in "production" environment.
+[05/06/15 11:58:06 +0000 core (18578)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/06/15 11:58:06 +0000 core (18578)] WARN : No configuration file found. Working directory = /var/www/thingspeak
+[05/06/15 11:58:06 +0000 core (18578)] WARN : Looked in these locations (based on defaults): /var/www/thingspeak/config/newrelic.yml, /var/www/thingspeak/newrelic.yml, /var/www/thingspeak/config/newrelic.yml, /var/www/thingspeak/newrelic.yml, /root/.newrelic/newrelic.yml, /root/newrelic.yml
+[05/06/15 11:58:06 +0000 core (18578)] INFO : Environment: production
+[05/06/15 11:58:06 +0000 core (18578)] INFO : Dispatcher: mongrel
+[05/06/15 11:58:06 +0000 core (18578)] INFO : Application: production
+[05/06/15 11:58:06 +0000 core (18578)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'.
+[05/06/15 11:58:06 +0000 core (18578)] INFO : Installing deferred Rack instrumentation
+[05/06/15 11:58:06 +0000 core (18578)] INFO : Installing Rack::Builder middleware instrumentation
+[05/06/15 11:58:06 +0000 core (18578)] INFO : Installing ActiveRecord 4 instrumentation
+[05/06/15 11:58:06 +0000 core (18578)] INFO : Installing Net instrumentation
+[05/06/15 11:58:06 +0000 core (18578)] INFO : Installing Resque instrumentation
+[05/06/15 11:58:06 +0000 core (18578)] INFO : Installing Dalli Memcache instrumentation
+[05/06/15 11:58:06 +0000 core (18578)] INFO : Installing Rails 3+ middleware instrumentation
+[05/06/15 11:58:06 +0000 core (18578)] INFO : Installing Rails 4 Controller instrumentation
+[05/06/15 11:58:06 +0000 core (18578)] INFO : Installing Rails 4 Error instrumentation
+[05/06/15 11:58:06 +0000 core (18578)] INFO : Installing Rails 4 view instrumentation
+[05/06/15 11:58:06 +0000 core (18578)] INFO : Finished instrumentation
+[05/06/15 11:58:06 +0000 core (18578)] INFO : Doing deferred dependency-detection before Rack startup
+[05/06/15 11:58:15 +0000 core (18578)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[05/06/15 11:58:15 +0000 core (18578)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector.newrelic.com:443: Connection refused - connect(2) for "collector.newrelic.com" port 443
+[05/06/15 11:58:15 +0000 core (18578)] INFO : Will re-attempt in 60 seconds
+[05/06/15 11:59:16 +0000 core (18578)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[05/06/15 11:59:16 +0000 core (18578)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector.newrelic.com:443: Connection refused - connect(2) for "collector.newrelic.com" port 443
+[05/06/15 11:59:16 +0000 core (18578)] INFO : Will re-attempt in 120 seconds
+[05/06/15 12:01:17 +0000 core (18578)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[05/06/15 12:01:17 +0000 core (18578)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector.newrelic.com:443: Connection refused - connect(2) for "collector.newrelic.com" port 443
+[05/06/15 12:01:17 +0000 core (18578)] INFO : Will re-attempt in 180 seconds
+[05/06/15 12:03:37 +0000 core (18578)] INFO : Starting Agent shutdown
+[05/06/15 12:03:40 +0000 core (18717)] INFO : Starting the New Relic agent in "production" environment.
+[05/06/15 12:03:40 +0000 core (18717)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/06/15 12:03:40 +0000 core (18717)] WARN : No configuration file found. Working directory = /var/www/thingspeak
+[05/06/15 12:03:40 +0000 core (18717)] WARN : Looked in these locations (based on defaults): /var/www/thingspeak/config/newrelic.yml, /var/www/thingspeak/newrelic.yml, /var/www/thingspeak/config/newrelic.yml, /var/www/thingspeak/newrelic.yml, /root/.newrelic/newrelic.yml, /root/newrelic.yml
+[05/06/15 12:03:40 +0000 core (18717)] INFO : Environment: production
+[05/06/15 12:03:40 +0000 core (18717)] INFO : Dispatcher: mongrel
+[05/06/15 12:03:40 +0000 core (18717)] INFO : Application: production
+[05/06/15 12:03:40 +0000 core (18717)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'.
+[05/06/15 12:03:40 +0000 core (18717)] INFO : Installing deferred Rack instrumentation
+[05/06/15 12:03:40 +0000 core (18717)] INFO : Installing Rack::Builder middleware instrumentation
+[05/06/15 12:03:40 +0000 core (18717)] INFO : Installing ActiveRecord 4 instrumentation
+[05/06/15 12:03:40 +0000 core (18717)] INFO : Installing Net instrumentation
+[05/06/15 12:03:40 +0000 core (18717)] INFO : Installing Resque instrumentation
+[05/06/15 12:03:40 +0000 core (18717)] INFO : Installing Dalli Memcache instrumentation
+[05/06/15 12:03:40 +0000 core (18717)] INFO : Installing Rails 3+ middleware instrumentation
+[05/06/15 12:03:40 +0000 core (18717)] INFO : Installing Rails 4 Controller instrumentation
+[05/06/15 12:03:40 +0000 core (18717)] INFO : Installing Rails 4 Error instrumentation
+[05/06/15 12:03:40 +0000 core (18717)] INFO : Installing Rails 4 view instrumentation
+[05/06/15 12:03:40 +0000 core (18717)] INFO : Finished instrumentation
+[05/06/15 12:03:41 +0000 core (18717)] INFO : Doing deferred dependency-detection before Rack startup
+[05/06/15 12:03:46 +0000 core (18717)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[05/06/15 12:03:46 +0000 core (18717)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector.newrelic.com:443: Connection refused - connect(2) for "collector.newrelic.com" port 443
+[05/06/15 12:03:46 +0000 core (18717)] INFO : Will re-attempt in 60 seconds
+[05/06/15 12:04:28 +0000 core (18717)] INFO : Starting Agent shutdown
+[05/06/15 12:05:15 +0000 core (18931)] INFO : Starting the New Relic agent in "production" environment.
+[05/06/15 12:05:15 +0000 core (18931)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/06/15 12:05:15 +0000 core (18931)] WARN : No configuration file found. Working directory = /var/www/thingspeak
+[05/06/15 12:05:15 +0000 core (18931)] WARN : Looked in these locations (based on defaults): /var/www/thingspeak/config/newrelic.yml, /var/www/thingspeak/newrelic.yml, /var/www/thingspeak/config/newrelic.yml, /var/www/thingspeak/newrelic.yml, /root/.newrelic/newrelic.yml, /root/newrelic.yml
+[05/06/15 12:05:15 +0000 core (18931)] INFO : Environment: production
+[05/06/15 12:05:15 +0000 core (18931)] INFO : Dispatcher: mongrel
+[05/06/15 12:05:15 +0000 core (18931)] INFO : Application: production
+[05/06/15 12:05:15 +0000 core (18931)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'.
+[05/06/15 12:05:15 +0000 core (18931)] INFO : Installing deferred Rack instrumentation
+[05/06/15 12:05:15 +0000 core (18931)] INFO : Installing Rack::Builder middleware instrumentation
+[05/06/15 12:05:15 +0000 core (18931)] INFO : Installing ActiveRecord 4 instrumentation
+[05/06/15 12:05:15 +0000 core (18931)] INFO : Installing Net instrumentation
+[05/06/15 12:05:15 +0000 core (18931)] INFO : Installing Resque instrumentation
+[05/06/15 12:05:15 +0000 core (18931)] INFO : Installing Dalli Memcache instrumentation
+[05/06/15 12:05:15 +0000 core (18931)] INFO : Installing Rails 3+ middleware instrumentation
+[05/06/15 12:05:15 +0000 core (18931)] INFO : Installing Rails 4 Controller instrumentation
+[05/06/15 12:05:15 +0000 core (18931)] INFO : Installing Rails 4 Error instrumentation
+[05/06/15 12:05:15 +0000 core (18931)] INFO : Installing Rails 4 view instrumentation
+[05/06/15 12:05:15 +0000 core (18931)] INFO : Finished instrumentation
+[05/06/15 12:05:15 +0000 core (18931)] INFO : Doing deferred dependency-detection before Rack startup
+[05/06/15 12:05:23 +0000 core (18931)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[05/06/15 12:05:23 +0000 core (18931)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector.newrelic.com:443: Connection refused - connect(2) for "collector.newrelic.com" port 443
+[05/06/15 12:05:23 +0000 core (18931)] INFO : Will re-attempt in 60 seconds
+[05/06/15 12:06:24 +0000 core (18931)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[05/06/15 12:06:24 +0000 core (18931)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector.newrelic.com:443: Connection refused - connect(2) for "collector.newrelic.com" port 443
+[05/06/15 12:06:24 +0000 core (18931)] INFO : Will re-attempt in 120 seconds
+[05/06/15 12:08:25 +0000 core (18931)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[05/06/15 12:08:25 +0000 core (18931)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector.newrelic.com:443: Connection refused - connect(2) for "collector.newrelic.com" port 443
+[05/06/15 12:08:25 +0000 core (18931)] INFO : Will re-attempt in 180 seconds
+[05/06/15 12:11:11 +0000 core (18931)] INFO : Starting Agent shutdown
+[05/06/15 12:11:15 +0000 core (19070)] INFO : Starting the New Relic agent in "production" environment.
+[05/06/15 12:11:15 +0000 core (19070)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/06/15 12:11:15 +0000 core (19070)] WARN : No configuration file found. Working directory = /var/www/thingspeak
+[05/06/15 12:11:15 +0000 core (19070)] WARN : Looked in these locations (based on defaults): /var/www/thingspeak/config/newrelic.yml, /var/www/thingspeak/newrelic.yml, /var/www/thingspeak/config/newrelic.yml, /var/www/thingspeak/newrelic.yml, /root/.newrelic/newrelic.yml, /root/newrelic.yml
+[05/06/15 12:11:15 +0000 core (19070)] INFO : Environment: production
+[05/06/15 12:11:15 +0000 core (19070)] INFO : Dispatcher: mongrel
+[05/06/15 12:11:15 +0000 core (19070)] INFO : Application: production
+[05/06/15 12:11:15 +0000 core (19070)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'.
+[05/06/15 12:11:15 +0000 core (19070)] INFO : Installing deferred Rack instrumentation
+[05/06/15 12:11:15 +0000 core (19070)] INFO : Installing Rack::Builder middleware instrumentation
+[05/06/15 12:11:15 +0000 core (19070)] INFO : Installing ActiveRecord 4 instrumentation
+[05/06/15 12:11:15 +0000 core (19070)] INFO : Installing Net instrumentation
+[05/06/15 12:11:15 +0000 core (19070)] INFO : Installing Resque instrumentation
+[05/06/15 12:11:15 +0000 core (19070)] INFO : Installing Dalli Memcache instrumentation
+[05/06/15 12:11:15 +0000 core (19070)] INFO : Installing Rails 3+ middleware instrumentation
+[05/06/15 12:11:15 +0000 core (19070)] INFO : Installing Rails 4 Controller instrumentation
+[05/06/15 12:11:15 +0000 core (19070)] INFO : Installing Rails 4 Error instrumentation
+[05/06/15 12:11:15 +0000 core (19070)] INFO : Installing Rails 4 view instrumentation
+[05/06/15 12:11:15 +0000 core (19070)] INFO : Finished instrumentation
+[05/06/15 12:11:15 +0000 core (19070)] INFO : Doing deferred dependency-detection before Rack startup
+[05/06/15 12:11:23 +0000 core (19070)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[05/06/15 12:11:23 +0000 core (19070)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector.newrelic.com:443: Connection refused - connect(2) for "collector.newrelic.com" port 443
+[05/06/15 12:11:23 +0000 core (19070)] INFO : Will re-attempt in 60 seconds
+[05/06/15 12:12:24 +0000 core (19070)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[05/06/15 12:12:24 +0000 core (19070)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector.newrelic.com:443: Connection refused - connect(2) for "collector.newrelic.com" port 443
+[05/06/15 12:12:24 +0000 core (19070)] INFO : Will re-attempt in 120 seconds
+[05/06/15 12:14:05 +0000 core (19070)] INFO : Starting Agent shutdown
+[05/06/15 12:16:54 +0000 core (19489)] INFO : Starting the New Relic agent in "production" environment.
+[05/06/15 12:16:54 +0000 core (19489)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/06/15 12:16:54 +0000 core (19489)] WARN : No configuration file found. Working directory = /var/www/thingspeak
+[05/06/15 12:16:54 +0000 core (19489)] WARN : Looked in these locations (based on defaults): /var/www/thingspeak/config/newrelic.yml, /var/www/thingspeak/newrelic.yml, /var/www/thingspeak/config/newrelic.yml, /var/www/thingspeak/newrelic.yml, /root/.newrelic/newrelic.yml, /root/newrelic.yml
+[05/06/15 12:16:54 +0000 core (19489)] INFO : Environment: production
+[05/06/15 12:16:54 +0000 core (19489)] INFO : Dispatcher: mongrel
+[05/06/15 12:16:54 +0000 core (19489)] INFO : Application: production
+[05/06/15 12:16:54 +0000 core (19489)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'.
+[05/06/15 12:16:54 +0000 core (19489)] INFO : Installing deferred Rack instrumentation
+[05/06/15 12:16:54 +0000 core (19489)] INFO : Installing Rack::Builder middleware instrumentation
+[05/06/15 12:16:54 +0000 core (19489)] INFO : Installing ActiveRecord 4 instrumentation
+[05/06/15 12:16:54 +0000 core (19489)] INFO : Installing Net instrumentation
+[05/06/15 12:16:54 +0000 core (19489)] INFO : Installing Resque instrumentation
+[05/06/15 12:16:54 +0000 core (19489)] INFO : Installing Dalli Memcache instrumentation
+[05/06/15 12:16:54 +0000 core (19489)] INFO : Installing Rails 3+ middleware instrumentation
+[05/06/15 12:16:54 +0000 core (19489)] INFO : Installing Rails 4 Controller instrumentation
+[05/06/15 12:16:54 +0000 core (19489)] INFO : Installing Rails 4 Error instrumentation
+[05/06/15 12:16:54 +0000 core (19489)] INFO : Installing Rails 4 view instrumentation
+[05/06/15 12:16:54 +0000 core (19489)] INFO : Finished instrumentation
+[05/06/15 12:16:54 +0000 core (19489)] INFO : Doing deferred dependency-detection before Rack startup
+[05/06/15 12:17:02 +0000 core (19489)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[05/06/15 12:17:02 +0000 core (19489)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector.newrelic.com:443: Connection refused - connect(2) for "collector.newrelic.com" port 443
+[05/06/15 12:17:02 +0000 core (19489)] INFO : Will re-attempt in 60 seconds
+[05/06/15 12:17:53 +0000 core (19489)] INFO : Starting Agent shutdown
+[05/06/15 12:18:02 +0000 core (19701)] INFO : Starting the New Relic agent in "production" environment.
+[05/06/15 12:18:02 +0000 core (19701)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/06/15 12:18:02 +0000 core (19701)] WARN : No configuration file found. Working directory = /var/www/thingspeak
+[05/06/15 12:18:02 +0000 core (19701)] WARN : Looked in these locations (based on defaults): /var/www/thingspeak/config/newrelic.yml, /var/www/thingspeak/newrelic.yml, /var/www/thingspeak/config/newrelic.yml, /var/www/thingspeak/newrelic.yml, /root/.newrelic/newrelic.yml, /root/newrelic.yml
+[05/06/15 12:18:02 +0000 core (19701)] INFO : Environment: production
+[05/06/15 12:18:02 +0000 core (19701)] INFO : Dispatcher: mongrel
+[05/06/15 12:18:02 +0000 core (19701)] INFO : Application: production
+[05/06/15 12:18:02 +0000 core (19701)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'.
+[05/06/15 12:18:02 +0000 core (19701)] INFO : Installing deferred Rack instrumentation
+[05/06/15 12:18:02 +0000 core (19701)] INFO : Installing Rack::Builder middleware instrumentation
+[05/06/15 12:18:02 +0000 core (19701)] INFO : Installing ActiveRecord 4 instrumentation
+[05/06/15 12:18:02 +0000 core (19701)] INFO : Installing Net instrumentation
+[05/06/15 12:18:02 +0000 core (19701)] INFO : Installing Resque instrumentation
+[05/06/15 12:18:02 +0000 core (19701)] INFO : Installing Dalli Memcache instrumentation
+[05/06/15 12:18:02 +0000 core (19701)] INFO : Installing Rails 3+ middleware instrumentation
+[05/06/15 12:18:02 +0000 core (19701)] INFO : Installing Rails 4 Controller instrumentation
+[05/06/15 12:18:02 +0000 core (19701)] INFO : Installing Rails 4 Error instrumentation
+[05/06/15 12:18:02 +0000 core (19701)] INFO : Installing Rails 4 view instrumentation
+[05/06/15 12:18:02 +0000 core (19701)] INFO : Finished instrumentation
+[05/06/15 12:18:02 +0000 core (19701)] INFO : Doing deferred dependency-detection before Rack startup
+[05/06/15 12:18:09 +0000 core (19701)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[05/06/15 12:18:09 +0000 core (19701)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector.newrelic.com:443: Connection refused - connect(2) for "collector.newrelic.com" port 443
+[05/06/15 12:18:09 +0000 core (19701)] INFO : Will re-attempt in 60 seconds
+[05/06/15 12:19:01 +0000 core (19701)] INFO : Starting Agent shutdown
+[05/06/15 12:19:10 +0000 core (19907)] INFO : Starting the New Relic agent in "production" environment.
+[05/06/15 12:19:10 +0000 core (19907)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/06/15 12:19:10 +0000 core (19907)] WARN : No configuration file found. Working directory = /var/www/thingspeak
+[05/06/15 12:19:10 +0000 core (19907)] WARN : Looked in these locations (based on defaults): /var/www/thingspeak/config/newrelic.yml, /var/www/thingspeak/newrelic.yml, /var/www/thingspeak/config/newrelic.yml, /var/www/thingspeak/newrelic.yml, /root/.newrelic/newrelic.yml, /root/newrelic.yml
+[05/06/15 12:19:10 +0000 core (19907)] INFO : Environment: production
+[05/06/15 12:19:10 +0000 core (19907)] INFO : Dispatcher: mongrel
+[05/06/15 12:19:10 +0000 core (19907)] INFO : Application: production
+[05/06/15 12:19:10 +0000 core (19907)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'.
+[05/06/15 12:19:10 +0000 core (19907)] INFO : Installing deferred Rack instrumentation
+[05/06/15 12:19:10 +0000 core (19907)] INFO : Installing Rack::Builder middleware instrumentation
+[05/06/15 12:19:10 +0000 core (19907)] INFO : Installing ActiveRecord 4 instrumentation
+[05/06/15 12:19:10 +0000 core (19907)] INFO : Installing Net instrumentation
+[05/06/15 12:19:10 +0000 core (19907)] INFO : Installing Resque instrumentation
+[05/06/15 12:19:10 +0000 core (19907)] INFO : Installing Dalli Memcache instrumentation
+[05/06/15 12:19:10 +0000 core (19907)] INFO : Installing Rails 3+ middleware instrumentation
+[05/06/15 12:19:10 +0000 core (19907)] INFO : Installing Rails 4 Controller instrumentation
+[05/06/15 12:19:10 +0000 core (19907)] INFO : Installing Rails 4 Error instrumentation
+[05/06/15 12:19:10 +0000 core (19907)] INFO : Installing Rails 4 view instrumentation
+[05/06/15 12:19:10 +0000 core (19907)] INFO : Finished instrumentation
+[05/06/15 12:19:11 +0000 core (19907)] INFO : Doing deferred dependency-detection before Rack startup
+[05/06/15 12:19:20 +0000 core (19907)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[05/06/15 12:19:20 +0000 core (19907)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector.newrelic.com:443: Connection refused - connect(2) for "collector.newrelic.com" port 443
+[05/06/15 12:19:20 +0000 core (19907)] INFO : Will re-attempt in 60 seconds
+[05/06/15 12:20:21 +0000 core (19907)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[05/06/15 12:20:21 +0000 core (19907)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector.newrelic.com:443: Connection refused - connect(2) for "collector.newrelic.com" port 443
+[05/06/15 12:20:21 +0000 core (19907)] INFO : Will re-attempt in 120 seconds
+[05/06/15 12:20:22 +0000 core (19907)] INFO : Starting Agent shutdown
+[05/06/15 12:20:30 +0000 core (20118)] INFO : Starting the New Relic agent in "production" environment.
+[05/06/15 12:20:30 +0000 core (20118)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/06/15 12:20:30 +0000 core (20118)] WARN : No configuration file found. Working directory = /var/www/thingspeak
+[05/06/15 12:20:30 +0000 core (20118)] WARN : Looked in these locations (based on defaults): /var/www/thingspeak/config/newrelic.yml, /var/www/thingspeak/newrelic.yml, /var/www/thingspeak/config/newrelic.yml, /var/www/thingspeak/newrelic.yml, /root/.newrelic/newrelic.yml, /root/newrelic.yml
+[05/06/15 12:20:30 +0000 core (20118)] INFO : Environment: production
+[05/06/15 12:20:30 +0000 core (20118)] INFO : Dispatcher: mongrel
+[05/06/15 12:20:30 +0000 core (20118)] INFO : Application: production
+[05/06/15 12:20:30 +0000 core (20118)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'.
+[05/06/15 12:20:31 +0000 core (20118)] INFO : Installing deferred Rack instrumentation
+[05/06/15 12:20:31 +0000 core (20118)] INFO : Installing Rack::Builder middleware instrumentation
+[05/06/15 12:20:31 +0000 core (20118)] INFO : Installing ActiveRecord 4 instrumentation
+[05/06/15 12:20:31 +0000 core (20118)] INFO : Installing Net instrumentation
+[05/06/15 12:20:31 +0000 core (20118)] INFO : Installing Resque instrumentation
+[05/06/15 12:20:31 +0000 core (20118)] INFO : Installing Dalli Memcache instrumentation
+[05/06/15 12:20:31 +0000 core (20118)] INFO : Installing Rails 3+ middleware instrumentation
+[05/06/15 12:20:31 +0000 core (20118)] INFO : Installing Rails 4 Controller instrumentation
+[05/06/15 12:20:31 +0000 core (20118)] INFO : Installing Rails 4 Error instrumentation
+[05/06/15 12:20:31 +0000 core (20118)] INFO : Installing Rails 4 view instrumentation
+[05/06/15 12:20:31 +0000 core (20118)] INFO : Finished instrumentation
+[05/06/15 12:20:31 +0000 core (20118)] INFO : Doing deferred dependency-detection before Rack startup
+[05/06/15 12:20:41 +0000 core (20118)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[05/06/15 12:20:41 +0000 core (20118)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector.newrelic.com:443: Connection refused - connect(2) for "collector.newrelic.com" port 443
+[05/06/15 12:20:41 +0000 core (20118)] INFO : Will re-attempt in 60 seconds
+[05/06/15 12:21:13 +0000 core (20118)] INFO : Starting Agent shutdown

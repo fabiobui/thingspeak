@@ -23,6 +23,15 @@ development:
   pool: 5
   username: root
   password: "quark"
+
+ # adapter: postgresql
+ # host: localhost
+ # encoding: unicode
+ # database: thingspeak_dev
+ # pool: 5
+ # username: rails
+ # password: "quark"  
+
 # socket: /var/lib/mysql/mysql.sock
 #  socket: /var/run/mysqld/mysqld.sock
 
